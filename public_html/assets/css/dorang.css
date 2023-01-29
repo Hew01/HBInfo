@@ -11498,7 +11498,7 @@ a:hover {
   position: relative;
   height: 100%;
   min-height: 600px;
-  text-align: center;
+  text-align: left;
   color: #fff;
   background-image: url(../imgs/header.jpg);
   background-size: cover;
@@ -11515,13 +11515,13 @@ a:hover {
   top: 0;
   height: 100%;
   width: 100%;
-  background-image: -webkit-radial-gradient(48% 42%, 140% 110%, rgba(33, 37, 41, 0.5), rgba(33, 37, 41, 0.6), rgba(33, 37, 41, 0.7), rgba(33, 37, 41, 0.8), rgba(33, 37, 41, 0.93), #212529 55%, #212529 200%);
-  background-image: radial-gradient(140% 110% at 48% 42%, rgba(33, 37, 41, 0.5), rgba(33, 37, 41, 0.6), rgba(33, 37, 41, 0.7), rgba(33, 37, 41, 0.8), rgba(33, 37, 41, 0.93), #212529 55%, #212529 200%);
+  background-image: -webkit-radial-gradient(48% 42%, 140% 110%, rgba(33, 37, 41, 0.5), rgba(33, 37, 41, 0.7), rgba(33, 37, 41, 0.8), rgba(33, 37, 41, 0.85), rgba(33, 37, 41, 0.93), #212529 55%, #212529 200%);
+  background-image: radial-gradient(140% 110% at 48% 42%, rgba(33, 37, 41, 0.5), rgba(33, 37, 41, 0.7), rgba(33, 37, 41, 0.8), rgba(33, 37, 41, 0.85), rgba(33, 37, 41, 0.93), #212529 55%, #212529 200%);
 }
 
 .header .header-content {
   position: absolute;
-  left: 50%;
+  left: 32.5%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -11533,6 +11533,10 @@ a:hover {
   margin-top: 15px;
   margin-bottom: 10px;
   font-weight: bold;
+}
+
+.header .header-content .header-title .font-uppercase-coloured {
+  color: #74e2cf;
 }
 
 .header .header-content .header-subtitle {
@@ -11551,6 +11555,17 @@ a:hover {
   transition: all, 0.3s;
   font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1300 - 300)));
   font-weight: bold;
+}
+
+.header .header-content .header-second-title {
+  font-size: calc(25px + (50 - 25) * ((82vw - 300px) / (1300 - 300)));
+}
+
+.header .header-content .header-third-title {
+  font-size: calc(25px + (50 - 25) * ((110vw - 300px) / (1300 - 300)));
+  font-weight: 600;
+  color: #74e2cf;
+  margin-bottom: 60px;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -11580,6 +11595,10 @@ a:hover {
   font-size: 2.4rem;
   font-weight: bold;
   opacity: .8;
+}
+
+.header-second-title {
+  font-weight: 400;
 }
 
 .header-mini {
@@ -11701,9 +11720,8 @@ body.light-theme .header .overlay {
 
 body.light-theme .header p,
 body.light-theme .header .title,
-body.light-theme .header .header-title {
-  color: #212529;
-}
+body.light-theme .header .header-title
+body.light-theme .header .header-second-title
 
 body.light-theme .header .btn-theme-color {
   border-color: #212529;
