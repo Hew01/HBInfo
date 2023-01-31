@@ -5060,6 +5060,10 @@ input[type="button"].btn-block {
   border-radius: 0.25rem;
 }
 
+.card:hover {
+  background-color: rgba(217, 217, 217, 0.06);
+}
+
 .card > hr {
   margin-right: 0;
   margin-left: 0;
