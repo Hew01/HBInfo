@@ -23,9 +23,9 @@ $(document).ready(function(){
         $('.modalBox').toggleClass('show');
     })
 
-    $('.modalBox').click(function(){
-        $(this).removeClass('show');
-    });
+    // $('.modalBox').click(function(){
+    //     $(this).removeClass('show');
+    // });
 
     $('.spinner').click(function(){
         $(".theme-selector").toggleClass('show');
