@@ -2165,7 +2165,7 @@ pre code {
   display: block;
   width: 100%;
   height: calc(1.5em + 0.75rem + 2px);
-  padding: 0.375rem 0.75rem;
+  padding: 0.375rem 0.5rem;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -3909,7 +3909,7 @@ input[type="button"].btn-block {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0.375rem 0.75rem;
+  padding: 0.375rem 0.6rem;
   margin-bottom: 0;
   font-size: 1rem;
   font-weight: 400;
@@ -3917,8 +3917,7 @@ input[type="button"].btn-block {
   color: #495057;
   text-align: center;
   white-space: nowrap;
-  background-color: #e9ecef;
-  border: 1px solid #ced4da;
+  background-color: transparent;
   border-radius: 0.25rem;
 }
 
@@ -6216,7 +6215,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 1;
-  color: #000;
+  color: white;
   text-shadow: 0 1px 0 #fff;
   opacity: .5;
 }
@@ -6460,7 +6459,6 @@ a.close.disabled {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 1rem 1rem;
-  border-bottom: 1px solid #dee2e6;
   border-top-left-radius: 0.3rem;
   border-top-right-radius: 0.3rem;
 }
@@ -6859,6 +6857,7 @@ a.close.disabled {
   transition: -webkit-transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  padding-bottom: 40px;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -11228,6 +11227,9 @@ a:hover {
 .modalBox.show .modalBox-body {
   width: 70%;
   height: 450px;
+  background-color: #262221e6;
+  padding: 40px;
+  border-radius: 40px;
 }
 
 /* page navbar */
@@ -11829,4 +11831,19 @@ body.light-theme .contact-section .footer .links a {
 
 body.dark-theme {
   background: #212529;
+}
+
+.form-control.outlined {
+  border: 1px solid; 
+}
+
+.carousel-item.menu-1 {
+  padding-bottom: 80px;
+}
+
+.form-control.pop-up-window {
+  border: transparent;
+}
+
+body.light-theme .form-control.pop-up-window {
 }
