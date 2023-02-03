@@ -54,6 +54,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  scroll-behavior: smooth;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -11829,4 +11830,20 @@ body.light-theme .contact-section .footer .links a {
 
 body.dark-theme {
   background: #212529;
+}
+
+.top-content .carousel-item {
+  height: auto;
+  min-height: 71vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-img {
+  opacity: 75%;
+}
+
+.title-info {
+  margin-top: 10%;
+  margin-left: 10%;
 }
