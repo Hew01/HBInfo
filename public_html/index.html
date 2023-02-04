@@ -21,13 +21,11 @@
         <!-- Bootstrap + Dorang main styles -->
         <link rel="stylesheet" href="assets/css/dorang.css" />
     </head>
-    <body
-        data-spy="scroll"
-        data-target=".navbar"
-        data-offset="40"
-        id="home"
-        class="dark-theme"
-    >
+    <body data-spy="scroll"
+          data-target=".navbar"
+          data-offset="40"
+          id="home"
+          class="dark-theme">
         <!-- page navbar -->
         <nav class="page-navbar" data-spy="affix" data-offset-top="10">
             <ul class="nav-navbar container">
@@ -35,7 +33,7 @@
                     <a href="./index.html" class="nav-link">Trang chủ</a>
                 </li>
                 <li class="nav-item">
-                    <a href="./info.html" class="nav-link">Danh sách</a>
+                    <a href="./list.html" class="nav-link">Danh sách</a>
                 </li>
                 <li class="nav-item">
                     <a href="./index.html" class="nav-link">
@@ -49,15 +47,15 @@
                     <a href="#" class="nav-link">Đăng nhập</a>
                 </li>
                 <!--nav item search
-            <li class="nav-item search">
-                <a href="javascript:void(0)" class="nav-link search-toggle"><i class="ti-search"></i> Search</a>
-                <div class="search-wrapper">
-                    <form>
-                        <input type="search" class="form-control" name="" placeholder="hit enter to search">
-                    </form>
-                </div>
-            </li>
-        -->
+                <li class="nav-item search">
+                    <a href="javascript:void(0)" class="nav-link search-toggle"><i class="ti-search"></i> Search</a>
+                    <div class="search-wrapper">
+                        <form>
+                            <input type="search" class="form-control" name="" placeholder="hit enter to search">
+                        </form>
+                    </div>
+                </li>
+            -->
             </ul>
         </nav>
         <!-- end of page navbar -->
@@ -88,7 +86,6 @@
             </div>
         </header>
         <!-- end of page header -->
-
         <!-- modal -->
         <div class="modalBox" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modalBox-body modal-dialog-scrollable">
@@ -100,32 +97,24 @@
 
                     <!-- Modal Body -->
                     <div class="modal-body">
-                        <div
-                            id="myCarousel"
-                            class="carousel slide top-content"
-                            data-interval="false"
-                            data-wrap="false"
-                        >
+                        <div id="myCarousel"
+                             class="carousel slide top-content"
+                             data-interval="false"
+                             data-wrap="false">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <h2 class="mb-4">
                                         Bạn muốn tìm học bổng...
                                     </h2>
                                     <div class="list-group">
-                                        <button
-                                            type="button"
-                                            class="btn btn-outline-success mb-4 form-control"
-                                            data-target="#myCarousel"
-                                            data-slide-to="1"
-                                        >
+                                        <button type="button"
+                                                class="btn btn-outline-success mb-4 form-control"
+                                                data-target="#myCarousel"
+                                                data-slide-to="1">
                                             ... với hồ sơ của mình
                                         </button>
-                                        <button
-                                            type="button"
-                                            class="btn btn-outline-success mb-4 form-control"
-                                            data-target="#myCarousel"
-                                            data-slide-to="3"
-                                        >
+                                        <button type="button"
+                                                class="btn btn-outline-success mb-4 form-control finishSearch">
                                             ... của một trường cụ thể
                                         </button>
                                     </div>
@@ -136,15 +125,12 @@
                                         Ngành học bạn muốn hướng đến là gì?
                                     </h2>
                                     <div class="input-group mb-3">
-                                        <span
-                                            style="color: #fff"
-                                            class="text-block mr-2 ml-2"
-                                            >Trả lời:
+                                        <span style="color: #fff"
+                                              class="text-block mr-2 ml-2">
+                                            Trả lời:
                                         </span>
-                                        <input
-                                            type="text"
-                                            class="form-control mr-3"
-                                        />
+                                        <input type="text"
+                                               class="form-control mr-3" />
                                     </div>
                                     <h2 class="mb-4">
                                         Ngoài ngành học chính ra, bạn có quan
@@ -153,28 +139,20 @@
                                     <div class="input-group mb-3">
                                         <div class="input-group-prepend">
                                             <div class="input-group-text">
-                                                <input
-                                                    type="radio"
-                                                    id="gpa"
-                                                    name="gpa"
-                                                />
+                                                <input type="radio"
+                                                       id="gpa"
+                                                       name="gpa" />
                                             </div>
                                         </div>
-                                        <span class="mr-3 form-control pop-up-window"
-                                            >Có</span
-                                        >
+                                        <span class="mr-3 form-control pop-up-window">Có</span>
                                         <div class="input-group-prepend">
                                             <div class="input-group-text">
-                                                <input
-                                                    type="radio"
-                                                    id="gpa"
-                                                    name="gpa"
-                                                />
+                                                <input type="radio"
+                                                       id="gpa"
+                                                       name="gpa" />
                                             </div>
                                         </div>
-                                        <span class="mr-3 form-control pop-up-window"
-                                            >Không</span
-                                        >
+                                        <span class="mr-3 form-control pop-up-window">Không</span>
                                     </div>
                                 </div>
 
@@ -183,26 +161,20 @@
                                         Điểm mạnh, điểm yếu của bạn là gì?
                                     </h2>
                                     <div class="input-group mb-3">
-                                        <span
-                                            style="color: #fff"
-                                            class="text-block mr-2 ml-2"
-                                            >- Điểm mạnh:
+                                        <span style="color: #fff"
+                                              class="text-block mr-2 ml-2">
+                                            - Điểm mạnh:
                                         </span>
-                                        <input
-                                            type="text"
-                                            class="form-control mr-3"
-                                        />
+                                        <input type="text"
+                                               class="form-control mr-3" />
                                     </div>
                                     <div class="input-group mb-3">
-                                        <span
-                                            style="color: #fff"
-                                            class="text-block mr-2 ml-2"
-                                            >- Điểm yếu:
+                                        <span style="color: #fff"
+                                              class="text-block mr-2 ml-2">
+                                            - Điểm yếu:
                                         </span>
-                                        <input
-                                            type="text"
-                                            class="form-control mr-3"
-                                        />
+                                        <input type="text"
+                                               class="form-control mr-3" />
                                     </div>
                                     <h2 class="mb-4">
                                         Bạn có tham gia các hoạt động ngoại khoá
@@ -212,95 +184,71 @@
                                     <div class="input-group mb-3 d-block">
                                         <div class="input-group-prepend">
                                             <div class="input-group-text">
-                                                <input
-                                                    type="checkbox"
-                                                    data-toggle="collapse"
-                                                    data-target="#volunteerActivity"
-                                                    aria-expanded="false"
-                                                    aria-controls="volunteerActivity"
-                                                />
+                                                <input type="checkbox"
+                                                       data-toggle="collapse"
+                                                       data-target="#volunteerActivity"
+                                                       aria-expanded="false"
+                                                       aria-controls="volunteerActivity" />
                                             </div>
-                                            <span
-                                                style="color: #fff"
-                                                class="mr-2 ml-2"
-                                                >Tình nguyện</span
-                                            >
+                                            <span style="color: #fff"
+                                                  class="mr-2 ml-2">Tình nguyện</span>
                                         </div>
-                                        <div
-                                            class="collapse input-group-prepend"
-                                            id="volunteerActivity"
-                                        >
+                                        <div class="collapse input-group-prepend"
+                                             id="volunteerActivity">
                                             <div class="input-group-prepend">
                                                 <div class="input-group-text">
                                                     <input type="checkbox" />
                                                 </div>
                                             </div>
-                                            <span class="mr-3 form-control fix-value-margin-top pop-up-window"
-                                                >Giúp đỡ trẻ em nghèo</span
-                                            >
+                                            <span class="mr-3 form-control fix-value-margin-top pop-up-window">Giúp đỡ trẻ em nghèo</span>
                                             <div class="input-group-prepend">
                                                 <div class="input-group-text">
                                                     <input type="checkbox" />
                                                 </div>
                                             </div>
-                                            <span class="mr-3 form-control fix-value-margin-top pop-up-window"
-                                                >Nhặt rác nơi công cộng</span
-                                            >
+                                            <span class="mr-3 form-control fix-value-margin-top pop-up-window">Nhặt rác nơi công cộng</span>
                                             <div class="input-group-prepend">
                                                 <div class="input-group-text">
                                                     <input type="checkbox" />
                                                 </div>
                                             </div>
-                                            <span class="mr-3 form-control fix-value-margin-top pop-up-window"
-                                                >Tham gia các hoạt động của
+                                            <span class="mr-3 form-control fix-value-margin-top pop-up-window">
+                                                Tham gia các hoạt động của
                                                 trường, ktx, địa phương,
-                                                ...</span
-                                            >
+                                                ...
+                                            </span>
                                         </div>
                                         <div class="input-group-prepend mt-3">
                                             <div class="input-group-text">
-                                                <input
-                                                    type="checkbox"
-                                                    data-toggle="collapse"
-                                                    data-target="#softSkill"
-                                                    aria-expanded="false"
-                                                    aria-controls="softSkill"
-                                                />
+                                                <input type="checkbox"
+                                                       data-toggle="collapse"
+                                                       data-target="#softSkill"
+                                                       aria-expanded="false"
+                                                       aria-controls="softSkill" />
                                             </div>
-                                            <span
-                                                style="color: #fff"
-                                                class="mr-2 ml-2"
-                                                >Khoá học kĩ năng mềm</span
-                                            >
+                                            <span style="color: #fff"
+                                                  class="mr-2 ml-2">Khoá học kĩ năng mềm</span>
                                         </div>
-                                        <div
-                                            class="collapse input-group-prepend"
-                                            id="softSkill"
-                                        >
+                                        <div class="collapse input-group-prepend"
+                                             id="softSkill">
                                             <div class="input-group-prepend">
                                                 <div class="input-group-text">
                                                     <input type="checkbox" />
                                                 </div>
                                             </div>
-                                            <span class="mr-3 form-control fix-value-margin-top pop-up-window"
-                                                >Teamwork</span
-                                            >
+                                            <span class="mr-3 form-control fix-value-margin-top pop-up-window">Teamwork</span>
                                             <div class="input-group-prepend">
                                                 <div class="input-group-text">
                                                     <input type="checkbox" />
                                                 </div>
                                             </div>
-                                            <span class="mr-3 form-control fix-value-margin-top pop-up-window"
-                                                >Problem solving</span
-                                            >
+                                            <span class="mr-3 form-control fix-value-margin-top pop-up-window">Problem solving</span>
                                             <div class="input-group-prepend">
                                                 <div class="input-group-text">
                                                     <input type="checkbox" />
                                                 </div>
                                             </div>
-                                            <span class="mr-3 form-control fix-value-margin-top pop-up-window"
-                                                >Communication</span
-                                            >
+                                            <span class="mr-3 form-control fix-value-margin-top pop-up-window">Communication</span>
                                         </div>
                                     </div>
                                 </div>
@@ -311,30 +259,24 @@
                                         bổng bạn nhắm tới?
                                     </h2>
                                     <div class="input-group mb-3">
-                                        <span
-                                            style="color: #fff"
-                                            class="mr-2 ml-2 text-block"
-                                            >- Trả lời:
+                                        <span style="color: #fff"
+                                              class="mr-2 ml-2 text-block">
+                                            - Trả lời:
                                         </span>
-                                        <input
-                                            type="text"
-                                            class="form-control mr-3"
-                                        />
+                                        <input type="text"
+                                               class="form-control mr-3" />
                                     </div>
                                     <h2 class="mb-4">
                                         Về sản phẩm, bạn đã làm gì để đạt học
                                         bổng bạn nhắm tới?
                                     </h2>
                                     <div class="input-group mb-3">
-                                        <span
-                                            style="color: #fff"
-                                            class="mr-2 ml-2 text-block"
-                                            >- Trả lời:
+                                        <span style="color: #fff"
+                                              class="mr-2 ml-2 text-block">
+                                            - Trả lời:
                                         </span>
-                                        <input
-                                            type="text"
-                                            class="form-control mr-3"
-                                        />
+                                        <input type="text"
+                                               class="form-control mr-3" />
                                     </div>
                                 </div>
 
@@ -347,43 +289,37 @@
                                     <div class="input-group mb-3">
                                         <div class="input-group-prepend">
                                             <div class="input-group-text">
-                                                <input
-                                                    type="radio"
-                                                    id="interest"
-                                                    name="interest"
-                                                />
+                                                <input type="radio"
+                                                       id="interest"
+                                                       name="interest" />
                                             </div>
                                         </div>
-                                        <span class="mr-3 form-control pop-up-window"
-                                            >Cần học bổng để có thể tiếp tục
-                                            việc học</span
-                                        >
+                                        <span class="mr-3 form-control pop-up-window">
+                                            Cần học bổng để có thể tiếp tục
+                                            việc học
+                                        </span>
                                         <div class="input-group-prepend">
                                             <div class="input-group-text">
-                                                <input
-                                                    type="radio"
-                                                    id="interest"
-                                                    name="interest"
-                                                />
+                                                <input type="radio"
+                                                       id="interest"
+                                                       name="interest" />
                                             </div>
                                         </div>
-                                        <span class="mr-3 form-control pop-up-window"
-                                            >Học bổng sẽ giúp rất nhiều cho việc
-                                            học</span
-                                        >
+                                        <span class="mr-3 form-control pop-up-window">
+                                            Học bổng sẽ giúp rất nhiều cho việc
+                                            học
+                                        </span>
                                         <div class="input-group-prepend">
                                             <div class="input-group-text">
-                                                <input
-                                                    type="radio"
-                                                    id="interest"
-                                                    name="interest"
-                                                />
+                                                <input type="radio"
+                                                       id="interest"
+                                                       name="interest" />
                                             </div>
                                         </div>
-                                        <span class="mr-3 form-control pop-up-window"
-                                            >Có thì tốt, không có cũng
-                                            được</span
-                                        >
+                                        <span class="mr-3 form-control pop-up-window">
+                                            Có thì tốt, không có cũng
+                                            được
+                                        </span>
                                     </div>
                                     <h2 class="mb-4">
                                         Khả năng tài chính của bạn đáp ứng tới
@@ -392,41 +328,31 @@
                                     <div class="input-group mb-3">
                                         <div class="input-group-prepend">
                                             <div class="input-group-text">
-                                                <input
-                                                    type="radio"
-                                                    id="financy"
-                                                    name="financy"
-                                                />
+                                                <input type="radio"
+                                                       id="financy"
+                                                       name="financy" />
                                             </div>
                                         </div>
-                                        <span class="mr-3 form-control pop-up-window"
-                                            >Đủ chi tiêu cho việc học và sở
-                                            thích</span
-                                        >
+                                        <span class="mr-3 form-control pop-up-window">
+                                            Đủ chi tiêu cho việc học và sở
+                                            thích
+                                        </span>
                                         <div class="input-group-prepend">
                                             <div class="input-group-text">
-                                                <input
-                                                    type="radio"
-                                                    id="financy"
-                                                    name="financy"
-                                                />
+                                                <input type="radio"
+                                                       id="financy"
+                                                       name="financy" />
                                             </div>
                                         </div>
-                                        <span class="mr-3 form-control pop-up-window"
-                                            >Chỉ đủ đáp ứng việc học</span
-                                        >
+                                        <span class="mr-3 form-control pop-up-window">Chỉ đủ đáp ứng việc học</span>
                                         <div class="input-group-prepend">
                                             <div class="input-group-text">
-                                                <input
-                                                    type="radio"
-                                                    id="financy"
-                                                    name="financy"
-                                                />
+                                                <input type="radio"
+                                                       id="financy"
+                                                       name="financy" />
                                             </div>
                                         </div>
-                                        <span class="mr-3 form-control pop-up-window"
-                                            >Túng thiếu và cần hỗ trợ</span
-                                        >
+                                        <span class="mr-3 form-control pop-up-window">Túng thiếu và cần hỗ trợ</span>
                                     </div>
                                     <h2 class="mb-4">
                                         Bạn có phải là con thương binh liệt sĩ
@@ -435,40 +361,28 @@
                                     <div class="input-group mb-3">
                                         <div class="input-group-prepend">
                                             <div class="input-group-text">
-                                                <input
-                                                    type="radio"
-                                                    id="parentless"
-                                                    name="parentless"
-                                                />
+                                                <input type="radio"
+                                                       id="parentless"
+                                                       name="parentless" />
                                             </div>
                                         </div>
-                                        <span class="mr-3 form-control pop-up-window"
-                                            >Con thương binh liệt sĩ</span
-                                        >
+                                        <span class="mr-3 form-control pop-up-window">Con thương binh liệt sĩ</span>
                                         <div class="input-group-prepend">
                                             <div class="input-group-text">
-                                                <input
-                                                    type="radio"
-                                                    id="parentless"
-                                                    name="parentless"
-                                                />
+                                                <input type="radio"
+                                                       id="parentless"
+                                                       name="parentless" />
                                             </div>
                                         </div>
-                                        <span class="mr-3 form-control pop-up-window"
-                                            >Mồ côi cha, mẹ hoặc cả hai</span
-                                        >
+                                        <span class="mr-3 form-control pop-up-window">Mồ côi cha, mẹ hoặc cả hai</span>
                                         <div class="input-group-prepend">
                                             <div class="input-group-text">
-                                                <input
-                                                    type="radio"
-                                                    id="parentless"
-                                                    name="parentless"
-                                                />
+                                                <input type="radio"
+                                                       id="parentless"
+                                                       name="parentless" />
                                             </div>
                                         </div>
-                                        <span class="mr-3 form-control pop-up-window"
-                                            >Vẫn còn cả cha lẫn mẹ</span
-                                        >
+                                        <span class="mr-3 form-control pop-up-window">Vẫn còn cả cha lẫn mẹ</span>
                                     </div>
                                 </div>
                             </div>
@@ -477,22 +391,18 @@
 
                     <!-- Modal Footer -->
                     <div class="modal-footer">
-                        <button
-                            type="button"
-                            class="btn btn-secondary mr-auto"
-                            href="#myCarousel"
-                            data-slide="prev"
-                            id="leftButton"
-                        >
+                        <button type="button"
+                                class="btn btn-secondary mr-auto"
+                                href="#myCarousel"
+                                data-slide="prev"
+                                id="leftButton">
                             Quay lại
                         </button>
-                        <button
-                            type="button"
-                            class="btn btn-secondary"
-                            href="#myCarousel"
-                            data-slide="next"
-                            id="rightButton"
-                        >
+                        <button type="button"
+                                class="btn btn-secondary"
+                                href="#myCarousel"
+                                data-slide="next"
+                                id="rightButton">
                             Tiếp tục
                         </button>
                     </div>
@@ -500,9 +410,8 @@
             </div>
         </div>
         <!-- end of modal -->
-
         <!-- page container -->
-        <div class="container page-container" id="Danhsach">
+        <div class="container page-container" id="Danhsach" hidden="true">
             <div class="col-md-10 col-lg-8 m-auto">
                 <h6 class="title mb-4">
                     Kết quả cho các học bổng bạn muốn tìm kiếm:
@@ -513,89 +422,88 @@
             <!-- row -->
             <div class="row mb-4">
                 <div class="col-md-4">
-                    <a href="javascript:void(0)" class="overlay-img">
-                        <img
-                            src="assets/imgs/img-1.jpg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page"
-                        />
-                        <div class="overlay"></div>
-                        <div class="des">
-                            <h1 class="title">Trường ĐH Công nghệ thông tin</h1>
-                            <h5 class="subtitle">Học bổng lên tới 80%</h5>
-                            <h6 class="subtitle">
-                                <span class="tag-subject tag1">GPA > 8</span>
-                                <span class="tag-subject tag2">CNTT</span>
-                                <span class="tag-subject tag3"
-                                    >GT Quốc gia</span
-                                >
-                            </h6>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
-                            </p>
-                        </div>
+                    <a href="javascript:void(0)">
+                        <a href="info.html" class="overlay-img">
+                            <img src="assets/imgs/img-1.jpg"
+                                 alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page" />
+                            <div class="overlay"></div>
+                            <div class="des">
+                                <h1 class="title">
+                                    Trường ĐH Công nghệ thông tin
+                                </h1>
+                                <h5 class="subtitle">Học bổng lên tới 80%</h5>
+                                <h6 class="subtitle">
+                                    <span class="tag-subject tag1">GPA > 8</span>
+                                    <span class="tag-subject tag2">CNTT</span>
+                                    <span class="tag-subject tag3">GT Quốc gia</span>
+                                </h6>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                        </a>
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="javascript:void(0)" class="overlay-img">
-                        <img
-                            src="assets/imgs/img-2.jpg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page"
-                        />
-                        <div class="overlay"></div>
-                        <div class="des">
-                            <h1 class="title">Trường ĐH FPT</h1>
-                            <h5 class="subtitle">Học bổng lên tới 100%</h5>
-                            <h6 class="subtitle">
-                                <span class="tag-subject tag1">GPA > 8</span>
-                                <span class="tag-subject tag2">CNTT</span>
-                                <span class="tag-subject tag3"
-                                    >GT Quốc gia</span
-                                >
-                            </h6>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
-                            </p>
-                        </div>
+                    <a href="javascript:void(0)">
+                        <a href="info.html" class="overlay-img">
+                            <img src="assets/imgs/img-2.jpg"
+                                 alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page" />
+                            <div class="overlay"></div>
+                            <div class="des">
+                                <h1 class="title">Trường ĐH FPT</h1>
+                                <h5 class="subtitle">Học bổng lên tới 100%</h5>
+                                <h6 class="subtitle">
+                                    <span class="tag-subject tag1">GPA > 8</span>
+                                    <span class="tag-subject tag2">CNTT</span>
+                                    <span class="tag-subject tag3">GT Quốc gia</span>
+                                </h6>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                        </a>
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="javascript:void(0)" class="overlay-img">
-                        <img
-                            src="assets/imgs/img-3.jpg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page"
-                        />
-                        <div class="overlay"></div>
-                        <div class="des">
-                            <h1 class="title">Trường ĐH Sư phạm kĩ thuật</h1>
-                            <h5 class="subtitle">Học bổng lên tới 60%</h5>
-                            <h6 class="subtitle">
-                                <span class="tag-subject tag1">GPA > 8</span>
-                                <span class="tag-subject tag2">CNTT</span>
-                                <span class="tag-subject tag3"
-                                    >GT Quốc gia</span
-                                >
-                            </h6>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
-                            </p>
-                        </div>
+                    <a href="javascript:void(0)">
+                        <a href="info.html" class="overlay-img">
+                            <img src="assets/imgs/img-3.jpg"
+                                 alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page" />
+                            <div class="overlay"></div>
+                            <div class="des">
+                                <h1 class="title">
+                                    Trường ĐH Sư phạm kĩ thuật
+                                </h1>
+                                <h5 class="subtitle">Học bổng lên tới 60%</h5>
+                                <h6 class="subtitle">
+                                    <span class="tag-subject tag1">GPA > 8</span>
+                                    <span class="tag-subject tag2">CNTT</span>
+                                    <span class="tag-subject tag3">GT Quốc gia</span>
+                                </h6>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                        </a>
                     </a>
                 </div>
             </div>
             <!-- end of row -->
 
-            <a href="#"
-                >Load More <i class="ti-angle-double-right angle"></i
-            ></a>
+            <a href="list.html">
+                Load More <i class="ti-angle-double-right angle"></i>
+            </a>
+        </div>
+
         </div>
         <!-- end of page container -->
-
         <!--footer & pre footer -->
         <div class="contact-section" id="Lienhe">
             <div class="overlay"></div>
@@ -607,31 +515,23 @@
                         Chúng tôi sẽ phản hồi những ghi nhận của bạn
                     </p>
                     <form action="" class="form-group">
-                        <input
-                            type="text"
-                            size="50"
-                            class="form-control"
-                            placeholder="Tên của bạn"
-                            required
-                        />
-                        <input
-                            type="email"
-                            class="form-control"
-                            placeholder="Email của bạn"
-                            requried
-                        />
-                        <textarea
-                            name="comment"
-                            id="comment"
-                            rows="6"
-                            class="form-control"
-                            placeholder="Ghi nội dung tại đây"
-                        ></textarea>
-                        <input
-                            type="submit"
-                            value="Gửi tin nhắn"
-                            class="form-control"
-                        />
+                        <input type="text"
+                               size="50"
+                               class="form-control"
+                               placeholder="Tên của bạn"
+                               required />
+                        <input type="email"
+                               class="form-control"
+                               placeholder="Email của bạn"
+                               requried />
+                        <textarea name="comment"
+                                  id="comment"
+                                  rows="6"
+                                  class="form-control"
+                                  placeholder="Ghi nội dung tại đây"></textarea>
+                        <input type="submit"
+                               value="Gửi tin nhắn"
+                               class="form-control" />
                     </form>
                 </div>
 
@@ -657,7 +557,6 @@
             <!-- end of container -->
         </div>
         <!-- end of pre footer -->
-
         <!-- core  -->
         <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
         <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
@@ -670,6 +569,12 @@
         <script>
             $(".closeModal").click(function () {
                 $(".modal-body input").val("");
+                $(".modalBox").removeClass("show");
+            });
+
+            $(".finishSearch").click(function () {
+                document.getElementById("Danhsach").removeAttribute("Hidden");
+                document.getElementById("Danhsach").scrollIntoView({ behavior: 'smooth', block: 'end' });
                 $(".modalBox").removeClass("show");
             });
 
@@ -700,10 +605,11 @@
                 if (
                     $(".carousel-inner .carousel-item:last").hasClass("active")
                 ) {
-                    $(".carousel").carousel(0);
                     $(".modalBox").removeClass("show");
+                    document.getElementById("Danhsach").removeAttribute("Hidden");
+                    document.getElementById("Danhsach").scrollIntoView({ behavior: 'smooth', block: 'end' });
+                    $(".carousel").carousel(0);
                     $("#rightButton").text("Tiếp tục");
-                    document.getElementById("Danhsach").scrollIntoView({ behavior: 'smooth', block: 'end'});
                 }
             });
         </script>
