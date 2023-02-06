@@ -11015,7 +11015,6 @@ a:hover {
 
 .card .card-body {
   padding: 10px;
-  margin-top: 20px;
 }
 
 .card .card-subtitle {
@@ -11091,22 +11090,23 @@ a:hover {
   font-weight: 500;
 }
 
-.overlay-img .des .subtitle .tag-subject {
+.tag-subject {
+  line-height: 35px;
   color: white;
   border-radius: 10px;
   padding: 2px 10px 3px; 
   margin: 4px 2px;
 }
 
-.overlay-img .des .subtitle .tag-subject.tag1 {
+.tag1 {
   border: solid #ff0000;
 } 
 
-.overlay-img .des .subtitle .tag-subject.tag2 {
+.tag2 {
   border: solid #0029FF;
 } 
 
-.overlay-img .des .subtitle .tag-subject.tag3 {
+.tag3 {
   border: solid #FFC700;
 } 
 
@@ -11866,4 +11866,12 @@ body.dark-theme {
 
 .form-control.fix-value-margin-top {
   margin-top: 10px;
+}
+
+.col-md-8.blog-main {
+  padding-left: 0;
+}
+
+.cb-fix-margin {
+  margin-bottom: 0;
 }
