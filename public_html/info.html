@@ -45,8 +45,37 @@
                 <li class="nav-item">
                     <a href="#Lienhe" class="nav-link">Liên hệ</a>
                 </li>
-                <li class="nav-item sign-in-btn">
-                    <a href="#" class="nav-link" id="sign-in">Đăng nhập</a>
+                <li class="nav-item">
+                    <a href="#" class="nav-link sign-in-btn" id="sign-in"
+                        >Đăng nhập</a
+                    >
+                    <div class="dropdown">
+                        <button
+                            class="btn btn-secondary dropdown-toggle nav-item"
+                            type="button"
+                            id="dropdownMenuButton"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            style="
+                                background-color: transparent;
+                                border: none;
+                                display: none;
+                            "
+                        >
+                            Dropdown button
+                        </button>
+                        <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton"
+                        >
+                            <a class="dropdown-item" href="#"
+                                >Danh sách yêu thích</a
+                            >
+                            <a class="dropdown-item" href="#">Cài đặt</a>
+                            <a class="dropdown-item" href="#">Đăng xuất</a>
+                        </div>
+                    </div>
                 </li>
                 <!--nav item search
             <li class="nav-item search">
@@ -106,6 +135,18 @@
                                         >Lợi ích</a
                                     >
                                 </li>
+                                <li class="nav-item">
+                                    <a href="#evaluate" style="color: #74e2cf"
+                                        >Đánh giá</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        href="#certification"
+                                        style="color: #74e2cf"
+                                        >Chi tiết chứng nhận</a
+                                    >
+                                </li>
                             </ul>
                         </div>
                         <div class="col-md-4 blog-sidebar change-button">
@@ -143,12 +184,20 @@
                         <h2 class="blog-post-title mb-3 mt-3" id="condition">
                             Điều kiện:
                         </h2>
-                        <p>GPA: 8.5/10 hoặc 4/5</p>
-                        <p>IELTS > 6.5 hoặc TOEFL 850</p>
-                        <p>
-                            Giải nhì trở lên cấp Tỉnh hoặc giải ba trở lên cấp
-                            Quốc gia
-                        </p>
+                        <ul>
+                            <li style="color: white">
+                                <p>GPA: 8.5/10 hoặc 4/5</p>
+                            </li>
+                            <li style="color: white">
+                                <p>
+                                    Giải nhì trở lên cấp Tỉnh hoặc giải ba trở
+                                    lên cấp Quốc gia
+                                </p>
+                            </li>
+                            <li style="color: white">
+                                <p>IELTS > 6.5 hoặc TOEFL 850</p>
+                            </li>
+                        </ul>
                         <h2 class="blog-post-title mb-3 mt-5" id="introduction">
                             Giới thiệu sơ:
                         </h2>
@@ -165,13 +214,23 @@
                         <h2 class="blog-post-title mb-3 mt-5" id="obtain">
                             Cách lấy được học bổng:
                         </h2>
-                        <p>Hoàn thành nghĩa vụ học phí đúng qui định</p>
-                        <p>Không vi phạm từ mức đình chỉ trở lên</p>
-                        <p>
-                            Điểm trung bính tích lũy đạt 8.0 trở lên, không có
-                            môn không đạt
-                        </p>
-                        <p>Không có nhận học bổng nào khác trong năm</p>
+                        <ul>
+                            <li style="color: white">
+                                <p>Hoàn thành nghĩa vụ học phí đúng qui định</p>
+                            </li>
+                            <li style="color: white">
+                                <p>Không vi phạm từ mức đình chỉ trở lên</p>
+                            </li>
+                            <li style="color: white">
+                                <p>
+                                    Điểm trung bính tích lũy đạt 8.0 trở lên,
+                                    không có môn không đạt
+                                </p>
+                            </li>
+                            <li style="color: white">
+                                <p>Không có nhận học bổng nào khác trong năm</p>
+                            </li>
+                        </ul>
                         <h2 class="blog-post-title mb-3 mt-5" id="profit">
                             Lợi ích:
                         </h2>
@@ -193,13 +252,50 @@
                             khó khăn, chưa bức thiết hãy khoan đăng ký để dành
                             suất cho các bạn khó khăn và cần hỗ trợ hơn.
                         </p>
+                        <h2
+                            class="blog-post-title mb-3 mt-5"
+                            id="certification"
+                        >
+                            Chứng nhận:
+                        </h2>
+                        <ul>
+                            <li style="color: white">
+                                <p>
+                                    Chứng nhận bởi tập đoàn
+                                    <a
+                                        href="#"
+                                        style="
+                                            color: #007bff;
+                                            text-decoration: none;
+                                            background-color: transparent;
+                                        "
+                                        >XYZ</a
+                                    >
+                                </p>
+                            </li>
+                            <li style="color: white">
+                                <p>
+                                    Chứng nhận bởi tập đoàn
+                                    <a
+                                        href="#"
+                                        style="
+                                            color: #007bff;
+                                            text-decoration: none;
+                                            background-color: transparent;
+                                        "
+                                        >ABC</a
+                                    >
+                                </p>
+                            </li>
+                        </ul>
                     </div>
-                    <!-- /.blog-post -->
                 </div>
                 <!-- /.blog-main -->
 
                 <aside class="col-md-4 p-4 blog-sidebar page-container">
-                    <h3 class="pb-4 mb-4 ml-5 font-italic border-bottom">Các tìm kiếm khác:</h3>
+                    <h3 class="pb-4 mb-4 ml-5 font-italic border-bottom">
+                        Các tìm kiếm khác:
+                    </h3>
                     <div class="row-md-4 ml-5">
                         <div class="card border-info" style="width: 17.7rem">
                             <img
@@ -218,17 +314,21 @@
                             </div>
                             <div class="card-body">
                                 <h6 class="cb-fix-margin">
-                                    <span class="tag-subject tag1">GPA > 8</span>
+                                    <span class="tag-subject tag1"
+                                        >GPA > 8</span
+                                    >
                                     <span class="tag-subject tag2">CNTT</span>
                                 </h6>
                                 <h6 class="cb-fix-margin">
-                                    <span class="tag-subject tag3">GT Quốc gia</span>
+                                    <span class="tag-subject tag3"
+                                        >GT Quốc gia</span
+                                    >
                                 </h6>
                             </div>
                         </div>
                     </div>
                     <div class="row-md-4 ml-5">
-                        <div class="card border-info" style="width: 17.7rem;">
+                        <div class="card border-info" style="width: 17.7rem">
                             <img
                                 src="assets/imgs/img-2.jpg"
                                 class="card-img-top"
@@ -240,22 +340,290 @@
                                 "
                             />
                             <div class="card-body">
-                                <h5 class="card-title">Trường ĐH Sư phạm kĩ thuật</h5>
+                                <h5 class="card-title">
+                                    Trường ĐH Sư phạm kĩ thuật
+                                </h5>
                                 <p class="card-text">Học bổng lên tới 60%</p>
                             </div>
                             <div class="card-body">
                                 <h6 class="cb-fix-margin">
-                                    <span class="tag-subject tag1">GPA > 9</span>
+                                    <span class="tag-subject tag1"
+                                        >GPA > 9</span
+                                    >
                                     <span class="tag-subject tag2">CNTT</span>
                                 </h6>
                                 <h6 class="cb-fix-margin">
-                                    <span class="tag-subject tag3">GT Quốc gia</span>
+                                    <span class="tag-subject tag3"
+                                        >GT Quốc gia</span
+                                    >
                                 </h6>
                             </div>
                         </div>
                     </div>
                 </aside>
                 <!-- /.blog-sidebar -->
+                <h2 class="blog-post-title mb-3 mt-5" id="evaluate">
+                    Đánh giá:
+                </h2>
+                <div
+                    id="myCarousel"
+                    class="carousel slide"
+                    data-ride="carousel"
+                >
+                    <ol class="carousel-indicators">
+                        <li
+                            data-target="#myCarousel"
+                            data-slide-to="0"
+                            class=""
+                        ></li>
+                        <li
+                            data-target="#myCarousel"
+                            data-slide-to="1"
+                            class="active"
+                        ></li>
+                        <li
+                            data-target="#myCarousel"
+                            data-slide-to="2"
+                            class=""
+                        ></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img
+                                        src="./assets/imgs/chad-1.png"
+                                        style="
+                                            width: 188.33px;
+                                            height: 188.33px;
+                                            object-fit: cover;
+                                            border-radius: 50%;
+                                        "
+                                    />
+                                    <h2>Dương Minh Thái</h2>
+                                    <p>
+                                        Tất cả những gì Team Mentor đem lại cho
+                                        em thật sự là trên cả tuyệt vời. Quy
+                                        trình làm việc của team rất chuyên
+                                        nghiệp và hiệu quả khi mà em nhận được
+                                        thông báo là được Giáo sư nhận hướng dẫn
+                                        và đồng ý cấp học bổng Master chỉ sau 5
+                                        ngày em chính thức làm việc với Team.
+                                    </p>
+                                </div>
+                                <!-- /.col-lg-4 -->
+                                <div class="col-lg-4">
+                                    <img
+                                        src="./assets/imgs/chad-2.png"
+                                        style="
+                                            width: 188.33px;
+                                            height: 188.33px;
+                                            object-fit: cover;
+                                            border-radius: 50%;
+                                        "
+                                    />
+                                    <h2>Cấn Đức Quang</h2>
+                                    <p>
+                                        Em viết thư này để cảm ơn chị và hệ
+                                        thống Mentor mà chị sáng lập đã giúp em
+                                        xem và chỉnh sửa hồ sơ học bổng của
+                                        mình. Nhờ đó, em đã nhận được học bổng
+                                        của Erasmus Mundus năm nay. Em mong chị
+                                        sẽ tiếp tục những đóng góp của mình hỗ
+                                        trợ các bạn đi du học.
+                                    </p>
+                                </div>
+                                <!-- /.col-lg-4 -->
+                                <div class="col-lg-4">
+                                    <img
+                                        src="./assets/imgs/chad-3.png"
+                                        style="
+                                            width: 188.33px;
+                                            height: 188.33px;
+                                            object-fit: cover;
+                                            border-radius: 50%;
+                                        "
+                                    />
+                                    <h2>Trương Đức Thiện</h2>
+                                    <p>
+                                        Lần trước em có nhờ Team Mentor review
+                                        giúp em hồ sơ PhD tại Úc. Hôm nay em đã
+                                        có kết quả và được offer vài full
+                                        scholarship từ vài trưởng của Úc, Anh và
+                                        New Zealand. Em rất biết ơn những đóng
+                                        góp quý giá của chị và Team Mentor để
+                                        giúp em hoàn thiện hồ sơ của mình.
+                                    </p>
+                                </div>
+                                <!-- /.col-lg-4 -->
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img
+                                        src="./assets/imgs/chad-1.png"
+                                        style="
+                                            width: 188.33px;
+                                            height: 188.33px;
+                                            object-fit: cover;
+                                            border-radius: 50%;
+                                        "
+                                    />
+                                    <h2>Dương Minh Thái</h2>
+                                    <p>
+                                        Tất cả những gì Team Mentor đem lại cho
+                                        em thật sự là trên cả tuyệt vời. Quy
+                                        trình làm việc của team rất chuyên
+                                        nghiệp và hiệu quả khi mà em nhận được
+                                        thông báo là được Giáo sư nhận hướng dẫn
+                                        và đồng ý cấp học bổng Master chỉ sau 5
+                                        ngày em chính thức làm việc với Team.
+                                    </p>
+                                </div>
+                                <!-- /.col-lg-4 -->
+                                <div class="col-lg-4">
+                                    <img
+                                        src="./assets/imgs/chad-2.png"
+                                        style="
+                                            width: 188.33px;
+                                            height: 188.33px;
+                                            object-fit: cover;
+                                            border-radius: 50%;
+                                        "
+                                    />
+                                    <h2>Cấn Đức Quang</h2>
+                                    <p>
+                                        Em viết thư này để cảm ơn chị và hệ
+                                        thống Mentor mà chị sáng lập đã giúp em
+                                        xem và chỉnh sửa hồ sơ học bổng của
+                                        mình. Nhờ đó, em đã nhận được học bổng
+                                        của Erasmus Mundus năm nay. Em mong chị
+                                        sẽ tiếp tục những đóng góp của mình hỗ
+                                        trợ các bạn đi du học.
+                                    </p>
+                                </div>
+                                <!-- /.col-lg-4 -->
+                                <div class="col-lg-4">
+                                    <img
+                                        src="./assets/imgs/chad-3.png"
+                                        style="
+                                            width: 188.33px;
+                                            height: 188.33px;
+                                            object-fit: cover;
+                                            border-radius: 50%;
+                                        "
+                                    />
+                                    <h2>Trương Đức Thiện</h2>
+                                    <p>
+                                        Lần trước em có nhờ Team Mentor review
+                                        giúp em hồ sơ PhD tại Úc. Hôm nay em đã
+                                        có kết quả và được offer vài full
+                                        scholarship từ vài trưởng của Úc, Anh và
+                                        New Zealand. Em rất biết ơn những đóng
+                                        góp quý giá của chị và Team Mentor để
+                                        giúp em hoàn thiện hồ sơ của mình.
+                                    </p>
+                                </div>
+                                <!-- /.col-lg-4 -->
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img
+                                        src="./assets/imgs/chad-1.png"
+                                        style="
+                                            width: 188.33px;
+                                            height: 188.33px;
+                                            object-fit: cover;
+                                            border-radius: 50%;
+                                        "
+                                    />
+                                    <h2>Dương Minh Thái</h2>
+                                    <p>
+                                        Tất cả những gì Team Mentor đem lại cho
+                                        em thật sự là trên cả tuyệt vời. Quy
+                                        trình làm việc của team rất chuyên
+                                        nghiệp và hiệu quả khi mà em nhận được
+                                        thông báo là được Giáo sư nhận hướng dẫn
+                                        và đồng ý cấp học bổng Master chỉ sau 5
+                                        ngày em chính thức làm việc với Team.
+                                    </p>
+                                </div>
+                                <!-- /.col-lg-4 -->
+                                <div class="col-lg-4">
+                                    <img
+                                        src="./assets/imgs/chad-2.png"
+                                        style="
+                                            width: 188.33px;
+                                            height: 188.33px;
+                                            object-fit: cover;
+                                            border-radius: 50%;
+                                        "
+                                    />
+                                    <h2>Cấn Đức Quang</h2>
+                                    <p>
+                                        Em viết thư này để cảm ơn chị và hệ
+                                        thống Mentor mà chị sáng lập đã giúp em
+                                        xem và chỉnh sửa hồ sơ học bổng của
+                                        mình. Nhờ đó, em đã nhận được học bổng
+                                        của Erasmus Mundus năm nay. Em mong chị
+                                        sẽ tiếp tục những đóng góp của mình hỗ
+                                        trợ các bạn đi du học.
+                                    </p>
+                                </div>
+                                <!-- /.col-lg-4 -->
+                                <div class="col-lg-4">
+                                    <img
+                                        src="./assets/imgs/chad-3.png"
+                                        style="
+                                            width: 188.33px;
+                                            height: 188.33px;
+                                            object-fit: cover;
+                                            border-radius: 50%;
+                                        "
+                                    />
+                                    <h2>Trương Đức Thiện</h2>
+                                    <p>
+                                        Lần trước em có nhờ Team Mentor review
+                                        giúp em hồ sơ PhD tại Úc. Hôm nay em đã
+                                        có kết quả và được offer vài full
+                                        scholarship từ vài trưởng của Úc, Anh và
+                                        New Zealand. Em rất biết ơn những đóng
+                                        góp quý giá của chị và Team Mentor để
+                                        giúp em hoàn thiện hồ sơ của mình.
+                                    </p>
+                                </div>
+                                <!-- /.col-lg-4 -->
+                            </div>
+                        </div>
+                        <a
+                            class="carousel-control-prev"
+                            href="#myCarousel"
+                            role="button"
+                            data-slide="prev"
+                        >
+                            <span
+                                class="carousel-control-prev-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a
+                            class="carousel-control-next"
+                            href="#myCarousel"
+                            role="button"
+                            data-slide="next"
+                        >
+                            <span
+                                class="carousel-control-next-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
             </div>
             <!-- /.row -->
         </main>
@@ -466,14 +834,15 @@
         <script src="assets/js/dorang.js"></script>
         <script>
             $(".sign-in-btn").click(function () {
-                if (document.getElementById("sign-in").innerHTML != "Đăng nhập")
-                    return;
                 $("#signinModal").modal();
             });
 
             $("#signed-in").click(function () {
                 $("#signinModal").modal("hide");
-                document.getElementById("sign-in").innerHTML =
+                document.getElementById("sign-in").style.display = "none";
+                document.getElementById("dropdownMenuButton").style.display =
+                    "block";
+                document.getElementById("dropdownMenuButton").innerHTML =
                     "Xin chào, " + document.getElementById("inputEmail").value;
             });
         </script>

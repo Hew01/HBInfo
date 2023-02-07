@@ -45,8 +45,18 @@
                 <li class="nav-item">
                     <a href="#Lienhe" class="nav-link">Liên hệ</a>
                 </li>
-                <li class="nav-item sign-in-btn">
-                    <a href="#" class="nav-link" id="sign-in">Đăng nhập</a>
+                <li class="nav-item">
+                    <a href="#" class="nav-link sign-in-btn" id="sign-in">Đăng nhập</a>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle nav-item" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: transparent; border: none; display: none;">
+                          Dropdown button
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Danh sách yêu thích</a>
+                          <a class="dropdown-item" href="#">Cài đặt</a>
+                          <a class="dropdown-item" href="#">Đăng xuất</a>
+                        </div>
+                      </div>
                 </li>
                 <!--nav item search
                 <li class="nav-item search">
@@ -898,14 +908,14 @@
             });
 
             $(".sign-in-btn").click(function () {
-                if (document.getElementById("sign-in").innerHTML != "Đăng nhập")
-                    return;
                 $("#signinModal").modal();
             });
 
             $("#signed-in").click(function () {
                 $("#signinModal").modal("hide");
-                document.getElementById("sign-in").innerHTML =
+                document.getElementById("sign-in").style.display = 'none';
+                document.getElementById("dropdownMenuButton").style.display = 'block';
+                document.getElementById("dropdownMenuButton").innerHTML =
                     "Xin chào, " + document.getElementById("inputEmail").value;
             });
 

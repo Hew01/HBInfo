@@ -45,9 +45,39 @@
                 <li class="nav-item">
                     <a href="#Lienhe" class="nav-link">Liên hệ</a>
                 </li>
-                <li class="nav-item sign-in-btn">
-                    <a href="#" class="nav-link" id="sign-in">Đăng nhập</a>
+                <li class="nav-item">
+                    <a href="#" class="nav-link sign-in-btn" id="sign-in"
+                        >Đăng nhập</a
+                    >
+                    <div class="dropdown">
+                        <button
+                            class="btn btn-secondary dropdown-toggle nav-item"
+                            type="button"
+                            id="dropdownMenuButton"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            style="
+                                background-color: transparent;
+                                border: none;
+                                display: none;
+                            "
+                        >
+                            Dropdown button
+                        </button>
+                        <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton"
+                        >
+                            <a class="dropdown-item" href="#"
+                                >Danh sách yêu thích</a
+                            >
+                            <a class="dropdown-item" href="#">Cài đặt</a>
+                            <a class="dropdown-item" href="#">Đăng xuất</a>
+                        </div>
+                    </div>
                 </li>
+
                 <!--nav item search
             <li class="nav-item search">
                 <a href="javascript:void(0)" class="nav-link search-toggle"><i class="ti-search"></i> Search</a>
@@ -87,17 +117,46 @@
                         <div class="card-body fix-margin-left">
                             <h5 class="card-title">
                                 Trường ĐH Công nghệ thông tin
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    width="24"
+                                    height="24"
+                                    style="fill: yellow"
+                                    data-toggle="tooltip"
+                                    title="Chứng nhận"
+                                >
+                                    <path
+                                        d="M12 .25a.75.75 0 0 1 .673.418l3.058 6.197 6.839.994a.75.75 0 0 1 .415 1.279l-4.948 4.823 1.168 6.811a.751.751 0 0 1-1.088.791L12 18.347l-6.117 3.216a.75.75 0 0 1-1.088-.79l1.168-6.812-4.948-4.823a.75.75 0 0 1 .416-1.28l6.838-.993L11.328.668A.75.75 0 0 1 12 .25Zm0 2.445L9.44 7.882a.75.75 0 0 1-.565.41l-5.725.832 4.143 4.038a.748.748 0 0 1 .215.664l-.978 5.702 5.121-2.692a.75.75 0 0 1 .698 0l5.12 2.692-.977-5.702a.748.748 0 0 1 .215-.664l4.143-4.038-5.725-.831a.75.75 0 0 1-.565-.41L12 2.694Z"
+                                    ></path>
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    width="24"
+                                    height="24"
+                                    style="fill: red"
+                                    data-toggle="tooltip"
+                                    title="Yêu thích"
+                                >
+                                    <path
+                                        d="m12 20.703.343.667a.748.748 0 0 1-.686 0l-.003-.002-.007-.003-.025-.013a31.138 31.138 0 0 1-5.233-3.576C3.8 15.573 1 12.332 1 8.514v-.001C1 5.053 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262a31.148 31.148 0 0 1-5.233 3.576l-.025.013-.007.003-.002.001ZM6.736 4C4.657 4 2.5 5.88 2.5 8.514c0 3.107 2.324 5.96 4.861 8.12a29.655 29.655 0 0 0 4.566 3.175l.073.041.073-.04c.271-.153.661-.38 1.13-.674.94-.588 2.19-1.441 3.436-2.502 2.537-2.16 4.861-5.013 4.861-8.12C21.5 5.88 19.343 4 17.264 4c-2.106 0-3.801 1.389-4.553 3.643a.751.751 0 0 1-1.422 0C10.537 5.389 8.841 4 6.736 4Z"
+                                    ></path>
+                                </svg>
                             </h5>
                             <p class="card-text">Học bổng lên tới 80%</p>
                             <h6>
                                 <span class="tag-subject tag1">GPA > 9</span>
                                 <span class="tag-subject tag2">CNTT</span>
-                                <span class="tag-subject tag3">GT Quốc gia</span>
+                                <span class="tag-subject tag3"
+                                    >GT Quốc gia</span
+                                >
                             </h6>
                             <p class="card-text">
                                 <small class="text-muted"
-                                    >Last updated 3 mins ago</small>
-                            </p>                 
+                                    >Last updated 3 mins ago</small
+                                >
+                            </p>
                         </div>
                     </div>
                 </a>
@@ -116,12 +175,29 @@
 
                     <div class="col-md-8">
                         <div class="card-body fix-margin-left">
-                            <h5 class="card-title">Trường ĐH FPT</h5>
+                            <h5 class="card-title">
+                                Trường ĐH FPT
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    width="24"
+                                    height="24"
+                                    style="fill: red"
+                                    data-toggle="tooltip"
+                                    title="Yêu thích"
+                                >
+                                    <path
+                                        d="m12 20.703.343.667a.748.748 0 0 1-.686 0l-.003-.002-.007-.003-.025-.013a31.138 31.138 0 0 1-5.233-3.576C3.8 15.573 1 12.332 1 8.514v-.001C1 5.053 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262a31.148 31.148 0 0 1-5.233 3.576l-.025.013-.007.003-.002.001ZM6.736 4C4.657 4 2.5 5.88 2.5 8.514c0 3.107 2.324 5.96 4.861 8.12a29.655 29.655 0 0 0 4.566 3.175l.073.041.073-.04c.271-.153.661-.38 1.13-.674.94-.588 2.19-1.441 3.436-2.502 2.537-2.16 4.861-5.013 4.861-8.12C21.5 5.88 19.343 4 17.264 4c-2.106 0-3.801 1.389-4.553 3.643a.751.751 0 0 1-1.422 0C10.537 5.389 8.841 4 6.736 4Z"
+                                    ></path>
+                                </svg>
+                            </h5>
                             <p class="card-text">Học bổng lên tới 100%</p>
                             <h6>
                                 <span class="tag-subject tag1">GPA > 9</span>
                                 <span class="tag-subject tag2">CNTT</span>
-                                <span class="tag-subject tag3">GT Quốc gia</span>
+                                <span class="tag-subject tag3"
+                                    >GT Quốc gia</span
+                                >
                             </h6>
                             <p class="card-text">
                                 <small class="text-muted"
@@ -148,12 +224,27 @@
                         <div class="card-body fix-margin-left">
                             <h5 class="card-title">
                                 Trường ĐH Sư phạm kĩ thuật
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    width="24"
+                                    height="24"
+                                    style="fill: yellow"
+                                    data-toggle="tooltip"
+                                    title="Chứng nhận"
+                                >
+                                    <path
+                                        d="M12 .25a.75.75 0 0 1 .673.418l3.058 6.197 6.839.994a.75.75 0 0 1 .415 1.279l-4.948 4.823 1.168 6.811a.751.751 0 0 1-1.088.791L12 18.347l-6.117 3.216a.75.75 0 0 1-1.088-.79l1.168-6.812-4.948-4.823a.75.75 0 0 1 .416-1.28l6.838-.993L11.328.668A.75.75 0 0 1 12 .25Zm0 2.445L9.44 7.882a.75.75 0 0 1-.565.41l-5.725.832 4.143 4.038a.748.748 0 0 1 .215.664l-.978 5.702 5.121-2.692a.75.75 0 0 1 .698 0l5.12 2.692-.977-5.702a.748.748 0 0 1 .215-.664l4.143-4.038-5.725-.831a.75.75 0 0 1-.565-.41L12 2.694Z"
+                                    ></path>
+                                </svg>
                             </h5>
                             <p class="card-text">Học bổng lên tới 60%</p>
                             <h6>
                                 <span class="tag-subject tag1">GPA > 9</span>
                                 <span class="tag-subject tag2">CNTT</span>
-                                <span class="tag-subject tag3">GT Quốc gia</span>
+                                <span class="tag-subject tag3"
+                                    >GT Quốc gia</span
+                                >
                             </h6>
                             <p class="card-text">
                                 <small class="text-muted"
@@ -183,12 +274,15 @@
                             <h6>
                                 <span class="tag-subject tag1">GPA > 9</span>
                                 <span class="tag-subject tag2">CNTT</span>
-                                <span class="tag-subject tag3">GT Quốc gia</span>
+                                <span class="tag-subject tag3"
+                                    >GT Quốc gia</span
+                                >
                             </h6>
                             <p class="card-text">
                                 <small class="text-muted"
-                                    >Last updated 3 mins ago</small>
-                            </p>                 
+                                    >Last updated 3 mins ago</small
+                                >
+                            </p>
                         </div>
                     </div>
                 </a>
@@ -212,7 +306,9 @@
                             <h6>
                                 <span class="tag-subject tag1">GPA > 9</span>
                                 <span class="tag-subject tag2">CNTT</span>
-                                <span class="tag-subject tag3">GT Quốc gia</span>
+                                <span class="tag-subject tag3"
+                                    >GT Quốc gia</span
+                                >
                             </h6>
                             <p class="card-text">
                                 <small class="text-muted"
@@ -244,7 +340,9 @@
                             <h6>
                                 <span class="tag-subject tag1">GPA > 9</span>
                                 <span class="tag-subject tag2">CNTT</span>
-                                <span class="tag-subject tag3">GT Quốc gia</span>
+                                <span class="tag-subject tag3"
+                                    >GT Quốc gia</span
+                                >
                             </h6>
                             <p class="card-text">
                                 <small class="text-muted"
@@ -254,7 +352,8 @@
                         </div>
                     </div>
                 </a>
-            </div><div class="card mb-3 mt-5">
+            </div>
+            <div class="card mb-3 mt-5">
                 <a class="row no-gutters" href="info.html">
                     <div class="col-md-4">
                         <img
@@ -273,12 +372,15 @@
                             <h6>
                                 <span class="tag-subject tag1">GPA > 9</span>
                                 <span class="tag-subject tag2">CNTT</span>
-                                <span class="tag-subject tag3">GT Quốc gia</span>
+                                <span class="tag-subject tag3"
+                                    >GT Quốc gia</span
+                                >
                             </h6>
                             <p class="card-text">
                                 <small class="text-muted"
-                                    >Last updated 3 mins ago</small>
-                            </p>                 
+                                    >Last updated 3 mins ago</small
+                                >
+                            </p>
                         </div>
                     </div>
                 </a>
@@ -302,7 +404,9 @@
                             <h6>
                                 <span class="tag-subject tag1">GPA > 9</span>
                                 <span class="tag-subject tag2">CNTT</span>
-                                <span class="tag-subject tag3">GT Quốc gia</span>
+                                <span class="tag-subject tag3"
+                                    >GT Quốc gia</span
+                                >
                             </h6>
                             <p class="card-text">
                                 <small class="text-muted"
@@ -334,7 +438,9 @@
                             <h6>
                                 <span class="tag-subject tag1">GPA > 9</span>
                                 <span class="tag-subject tag2">CNTT</span>
-                                <span class="tag-subject tag3">GT Quốc gia</span>
+                                <span class="tag-subject tag3"
+                                    >GT Quốc gia</span
+                                >
                             </h6>
                             <p class="card-text">
                                 <small class="text-muted"
@@ -344,7 +450,8 @@
                         </div>
                     </div>
                 </a>
-            </div><div class="card mb-3 mt-5">
+            </div>
+            <div class="card mb-3 mt-5">
                 <a class="row no-gutters" href="info.html">
                     <div class="col-md-4">
                         <img
@@ -363,12 +470,15 @@
                             <h6>
                                 <span class="tag-subject tag1">GPA > 9</span>
                                 <span class="tag-subject tag2">CNTT</span>
-                                <span class="tag-subject tag3">GT Quốc gia</span>
+                                <span class="tag-subject tag3"
+                                    >GT Quốc gia</span
+                                >
                             </h6>
                             <p class="card-text">
                                 <small class="text-muted"
-                                    >Last updated 3 mins ago</small>
-                            </p>                 
+                                    >Last updated 3 mins ago</small
+                                >
+                            </p>
                         </div>
                     </div>
                 </a>
@@ -392,7 +502,9 @@
                             <h6>
                                 <span class="tag-subject tag1">GPA > 9</span>
                                 <span class="tag-subject tag2">CNTT</span>
-                                <span class="tag-subject tag3">GT Quốc gia</span>
+                                <span class="tag-subject tag3"
+                                    >GT Quốc gia</span
+                                >
                             </h6>
                             <p class="card-text">
                                 <small class="text-muted"
@@ -424,7 +536,9 @@
                             <h6>
                                 <span class="tag-subject tag1">GPA > 9</span>
                                 <span class="tag-subject tag2">CNTT</span>
-                                <span class="tag-subject tag3">GT Quốc gia</span>
+                                <span class="tag-subject tag3"
+                                    >GT Quốc gia</span
+                                >
                             </h6>
                             <p class="card-text">
                                 <small class="text-muted"
@@ -434,7 +548,8 @@
                         </div>
                     </div>
                 </a>
-            </div><div class="card mb-3 mt-5">
+            </div>
+            <div class="card mb-3 mt-5">
                 <a class="row no-gutters" href="info.html">
                     <div class="col-md-4">
                         <img
@@ -453,12 +568,15 @@
                             <h6>
                                 <span class="tag-subject tag1">GPA > 9</span>
                                 <span class="tag-subject tag2">CNTT</span>
-                                <span class="tag-subject tag3">GT Quốc gia</span>
+                                <span class="tag-subject tag3"
+                                    >GT Quốc gia</span
+                                >
                             </h6>
                             <p class="card-text">
                                 <small class="text-muted"
-                                    >Last updated 3 mins ago</small>
-                            </p>                 
+                                    >Last updated 3 mins ago</small
+                                >
+                            </p>
                         </div>
                     </div>
                 </a>
@@ -482,7 +600,9 @@
                             <h6>
                                 <span class="tag-subject tag1">GPA > 9</span>
                                 <span class="tag-subject tag2">CNTT</span>
-                                <span class="tag-subject tag3">GT Quốc gia</span>
+                                <span class="tag-subject tag3"
+                                    >GT Quốc gia</span
+                                >
                             </h6>
                             <p class="card-text">
                                 <small class="text-muted"
@@ -514,7 +634,9 @@
                             <h6>
                                 <span class="tag-subject tag1">GPA > 9</span>
                                 <span class="tag-subject tag2">CNTT</span>
-                                <span class="tag-subject tag3">GT Quốc gia</span>
+                                <span class="tag-subject tag3"
+                                    >GT Quốc gia</span
+                                >
                             </h6>
                             <p class="card-text">
                                 <small class="text-muted"
@@ -528,189 +650,189 @@
         </div>
 
         <div
-        class="modal fade"
-        id="signinModal"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="signinModal"
-        aria-hidden="true"
-    >
-        <div class="modal-dialog" role="document">
-            <div class="modal-content" style="background: #1e1e1e">
-                <div class="modal-body text-center">
-                    <div id="logreg-forms">
-                        <form class="form-signin">
-                            <h1
-                                class="h3 mb-3 font-weight-normal"
-                                style="text-align: center"
-                            >
-                                Sign in
-                            </h1>
-                            <div class="social-login">
-                                <button
-                                    class="btn facebook-btn social-btn"
-                                    type="button"
+            class="modal fade"
+            id="signinModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="signinModal"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog" role="document">
+                <div class="modal-content" style="background: #1e1e1e">
+                    <div class="modal-body text-center">
+                        <div id="logreg-forms">
+                            <form class="form-signin">
+                                <h1
+                                    class="h3 mb-3 font-weight-normal"
+                                    style="text-align: center"
                                 >
-                                    <span
-                                        ><i class="fab fa-facebook-f"></i>
-                                        Sign in with Facebook</span
+                                    Sign in
+                                </h1>
+                                <div class="social-login">
+                                    <button
+                                        class="btn facebook-btn social-btn"
+                                        type="button"
                                     >
-                                </button>
+                                        <span
+                                            ><i class="fab fa-facebook-f"></i>
+                                            Sign in with Facebook</span
+                                        >
+                                    </button>
+                                    <button
+                                        class="btn google-btn social-btn"
+                                        type="button"
+                                    >
+                                        <span
+                                            ><i
+                                                class="fab fa-google-plus-g"
+                                            ></i>
+                                            Sign in with Google+</span
+                                        >
+                                    </button>
+                                </div>
+                                <p style="text-align: center">OR</p>
+                                <input
+                                    type="email"
+                                    id="inputEmail"
+                                    class="form-control"
+                                    placeholder="Email address"
+                                    required=""
+                                    autofocus=""
+                                />
+                                <input
+                                    type="password"
+                                    id="inputPassword"
+                                    class="form-control"
+                                    placeholder="Password"
+                                    required=""
+                                />
+
                                 <button
-                                    class="btn google-btn social-btn"
-                                    type="button"
+                                    class="btn btn-success btn-block"
+                                    id="signed-in"
                                 >
-                                    <span
-                                        ><i
-                                            class="fab fa-google-plus-g"
-                                        ></i>
-                                        Sign in with Google+</span
-                                    >
+                                    <i class="fas fa-sign-in-alt"></i> Sign in
                                 </button>
-                            </div>
-                            <p style="text-align: center">OR</p>
-                            <input
-                                type="email"
-                                id="inputEmail"
-                                class="form-control"
-                                placeholder="Email address"
-                                required=""
-                                autofocus=""
-                            />
-                            <input
-                                type="password"
-                                id="inputPassword"
-                                class="form-control"
-                                placeholder="Password"
-                                required=""
-                            />
-
-                            <button
-                                class="btn btn-success btn-block"
-                                id="signed-in"
-                            >
-                                <i class="fas fa-sign-in-alt"></i> Sign in
-                            </button>
-                            <a href="#" id="forgot_pswd"
-                                >Forgot password?</a
-                            >
-                            <hr />
-                            <!-- <p>Don't have an account!</p>  -->
-                            <button
-                                class="btn btn-primary btn-block"
-                                type="button"
-                                id="btn-signup"
-                            >
-                                <i class="fas fa-user-plus"></i> Sign up New
-                                Account
-                            </button>
-                        </form>
-
-                        <form
-                            action=""
-                            class="form-reset"
-                            style="display: none"
-                        >
-                            <input
-                                type="email"
-                                id="resetEmail"
-                                class="form-control"
-                                placeholder="Email address"
-                                required=""
-                                autofocus=""
-                            />
-                            <button
-                                class="btn btn-primary btn-block"
-                                type="submit"
-                            >
-                                Reset Password
-                            </button>
-                            <a href="#" id="cancel_reset"
-                                ><i class="fas fa-angle-left"></i> Back</a
-                            >
-                        </form>
-
-                        <form
-                            action=""
-                            class="form-signup"
-                            style="display: none"
-                        >
-                            <div class="social-login">
+                                <a href="#" id="forgot_pswd"
+                                    >Forgot password?</a
+                                >
+                                <hr />
+                                <!-- <p>Don't have an account!</p>  -->
                                 <button
-                                    class="btn facebook-btn social-btn"
+                                    class="btn btn-primary btn-block"
                                     type="button"
+                                    id="btn-signup"
                                 >
-                                    <span
-                                        ><i class="fab fa-facebook-f"></i>
-                                        Sign up with Facebook</span
-                                    >
+                                    <i class="fas fa-user-plus"></i> Sign up New
+                                    Account
                                 </button>
-                            </div>
-                            <div class="social-login">
+                            </form>
+
+                            <form
+                                action=""
+                                class="form-reset"
+                                style="display: none"
+                            >
+                                <input
+                                    type="email"
+                                    id="resetEmail"
+                                    class="form-control"
+                                    placeholder="Email address"
+                                    required=""
+                                    autofocus=""
+                                />
                                 <button
-                                    class="btn google-btn social-btn"
-                                    type="button"
+                                    class="btn btn-primary btn-block"
+                                    type="submit"
                                 >
-                                    <span
-                                        ><i
-                                            class="fab fa-google-plus-g"
-                                        ></i>
-                                        Sign up with Google+</span
-                                    >
+                                    Reset Password
                                 </button>
-                            </div>
+                                <a href="#" id="cancel_reset"
+                                    ><i class="fas fa-angle-left"></i> Back</a
+                                >
+                            </form>
 
-                            <p style="text-align: center">OR</p>
-
-                            <input
-                                type="text"
-                                id="user-name"
-                                class="form-control"
-                                placeholder="Full name"
-                                required=""
-                                autofocus=""
-                            />
-                            <input
-                                type="email"
-                                id="user-email"
-                                class="form-control"
-                                placeholder="Email address"
-                                required=""
-                                autofocus=""
-                            />
-                            <input
-                                type="password"
-                                id="user-pass"
-                                class="form-control"
-                                placeholder="Password"
-                                required=""
-                                autofocus=""
-                            />
-                            <input
-                                type="password"
-                                id="user-repeatpass"
-                                class="form-control"
-                                placeholder="Repeat Password"
-                                required=""
-                                autofocus=""
-                            />
-
-                            <button
-                                class="btn btn-primary btn-block"
-                                type="submit"
+                            <form
+                                action=""
+                                class="form-signup"
+                                style="display: none"
                             >
-                                <i class="fas fa-user-plus"></i> Sign Up
-                            </button>
-                            <a href="#" id="cancel_signup"
-                                ><i class="fas fa-angle-left"></i> Back</a
-                            >
-                        </form>
-                        <br />
+                                <div class="social-login">
+                                    <button
+                                        class="btn facebook-btn social-btn"
+                                        type="button"
+                                    >
+                                        <span
+                                            ><i class="fab fa-facebook-f"></i>
+                                            Sign up with Facebook</span
+                                        >
+                                    </button>
+                                </div>
+                                <div class="social-login">
+                                    <button
+                                        class="btn google-btn social-btn"
+                                        type="button"
+                                    >
+                                        <span
+                                            ><i
+                                                class="fab fa-google-plus-g"
+                                            ></i>
+                                            Sign up with Google+</span
+                                        >
+                                    </button>
+                                </div>
+
+                                <p style="text-align: center">OR</p>
+
+                                <input
+                                    type="text"
+                                    id="user-name"
+                                    class="form-control"
+                                    placeholder="Full name"
+                                    required=""
+                                    autofocus=""
+                                />
+                                <input
+                                    type="email"
+                                    id="user-email"
+                                    class="form-control"
+                                    placeholder="Email address"
+                                    required=""
+                                    autofocus=""
+                                />
+                                <input
+                                    type="password"
+                                    id="user-pass"
+                                    class="form-control"
+                                    placeholder="Password"
+                                    required=""
+                                    autofocus=""
+                                />
+                                <input
+                                    type="password"
+                                    id="user-repeatpass"
+                                    class="form-control"
+                                    placeholder="Repeat Password"
+                                    required=""
+                                    autofocus=""
+                                />
+
+                                <button
+                                    class="btn btn-primary btn-block"
+                                    type="submit"
+                                >
+                                    <i class="fas fa-user-plus"></i> Sign Up
+                                </button>
+                                <a href="#" id="cancel_signup"
+                                    ><i class="fas fa-angle-left"></i> Back</a
+                                >
+                            </form>
+                            <br />
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
         <div class="theme-selector">
             <a href="javascript:void(0)" class="spinner">
@@ -733,15 +855,20 @@
         <script src="assets/js/dorang.js"></script>
         <script>
             $(".sign-in-btn").click(function () {
-                if (document.getElementById("sign-in").innerHTML != "Đăng nhập")
-                    return;
                 $("#signinModal").modal();
             });
 
             $("#signed-in").click(function () {
                 $("#signinModal").modal("hide");
-                document.getElementById("sign-in").innerHTML =
+                document.getElementById("sign-in").style.display = "none";
+                document.getElementById("dropdownMenuButton").style.display =
+                    "block";
+                document.getElementById("dropdownMenuButton").innerHTML =
                     "Xin chào, " + document.getElementById("inputEmail").value;
+            });
+
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip();
             });
         </script>
         <script type="text/javascript">
