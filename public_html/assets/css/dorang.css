@@ -6962,11 +6962,11 @@ a.close.disabled {
 }
 
 .carousel-control-prev {
-  left: 0;
+  left: -80px;
 }
 
 .carousel-control-next {
-  right: 0;
+  right: -60px;
 }
 
 .carousel-control-prev-icon,
@@ -11890,6 +11890,12 @@ body.dark-theme {
 
 .change-text-area {
   max-width: 100%;
+}
+
+.fix-padding-carousel {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 /* sign in FORM */
