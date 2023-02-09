@@ -215,6 +215,10 @@ svg {
   vertical-align: middle;
 }
 
+svg:hover {
+  fill: red;
+}
+
 table {
   border-collapse: collapse;
 }
@@ -11992,4 +11996,12 @@ body.dark-theme {
       content:'Google+';
   }
   
+}
+
+.loveText {
+  color: white;
+}
+
+.loveText:hover {
+  color: red;
 }
