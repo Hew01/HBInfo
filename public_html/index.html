@@ -46,17 +46,36 @@
                     <a href="#Lienhe" class="nav-link">Liên hệ</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link sign-in-btn" id="sign-in">Đăng nhập</a>
+                    <a href="#" class="nav-link sign-in-btn" id="sign-in"
+                        >Đăng nhập</a
+                    >
                     <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle nav-item" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: transparent; border: none; display: none;">
-                          Dropdown button
+                        <button
+                            class="btn btn-secondary dropdown-toggle nav-item"
+                            type="button"
+                            id="dropdownMenuButton"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            style="
+                                background-color: transparent;
+                                border: none;
+                                display: none;
+                            "
+                        >
+                            Dropdown button
                         </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                          <a class="dropdown-item" href="favorite.html">Danh sách yêu thích</a>
-                          <a class="dropdown-item" href="#">Cài đặt</a>
-                          <a class="dropdown-item" href="#">Đăng xuất</a>
+                        <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton"
+                        >
+                            <a class="dropdown-item" href="favorite.html"
+                                >Danh sách yêu thích</a
+                            >
+                            <a class="dropdown-item" href="#">Cài đặt</a>
+                            <a class="dropdown-item" href="#">Đăng xuất</a>
                         </div>
-                      </div>
+                    </div>
                 </li>
                 <!--nav item search
                 <li class="nav-item search">
@@ -136,7 +155,10 @@
                                         </button>
                                         <button
                                             type="button"
-                                            class="btn btn-outline-success mb-4 form-control finishSearch"
+                                            class="btn btn-outline-success mb-4 form-control"
+                                            data-target="#myCarousel"
+                                            data-slide-to="5"
+                                            id="schoolSearch"
                                         >
                                             ... của một trường cụ thể
                                         </button>
@@ -156,8 +178,107 @@
                                         </span>
                                         <input
                                             type="text"
-                                            class="form-control mr-3"
+                                            class="form-control mr-3 singleInput"
+                                            list="inputGroupSelect01"
+                                            multiple="multiple"
+                                            id="input1"
                                         />
+                                        <datalist
+                                            id="inputGroupSelect01"
+                                            
+                                        >
+                                        <option class=optionInModal > Ngành công nghệ thực phẩm</option>
+                                        <option class=optionInModal > Ngành công nghệ chế biến sau thu hoạch</option>
+                                        <option class=optionInModal > Công nghệ chế biến thủy sản</option>
+                                        <option class=optionInModal > Ngành kỹ thuật dệt</option>
+                                        <option class=optionInModal > Công nghệ sợi dệt</option>
+                                        <option class=optionInModal > Công nghệ da giầy</option>
+                                        <option class=optionInModal > Công nghệ chế biến lâm sản</option>
+                                        <option class=optionInModal > Ngành kiến trúc</option>
+                                        <option class=optionInModal > Ngành kinh tế và quản lý đô thị</option>
+                                        <option class=optionInModal > Kỹ thuật công trình biển</option>
+                                        <option class=optionInModal > Ngành kỹ thuật xây dựng</option>
+                                        <option class=optionInModal > Ngành kinh tế xây dựng</option>
+                                        <option class=optionInModal > Ngành quản lý xây dựng</option>
+                                        <option class=optionInModal > Ngành quản trị kinh doanh</option>
+                                        <option class=optionInModal > Ngành quản trị dịch vụ du lịch và lữ hành</option>
+                                        <option class=optionInModal > Ngành quản trị khách sạn</option>
+                                        <option class=optionInModal > Ngành Marketing</option>
+                                        <option class=optionInModal > Ngành nghề môi giới bất động sản</option>
+                                        <option class=optionInModal > Ngành kinh doanh quốc tế</option>
+                                        <option class=optionInModal > Ngành kế toán</option>
+                                        <option class=optionInModal > Ngành kiểm toán</option>
+                                        <option class=optionInModal > Ngành quản trị nhân lực</option>
+                                        <option class=optionInModal > Ngành hệ thống thông tin quản lý</option>
+                                        <option class=optionInModal > Ngành quản trị văn phòng</option>
+                                        <option class=optionInModal > Ngành khoa học - máy tính</option>
+                                        <option class=optionInModal > Ngành truyền thông đa phương tiện</option>
+                                        <option class=optionInModal > Ngành kỹ thuật phần mềm</option>
+                                        <option class=optionInModal > Ngành công nghệ thông tin</option>
+                                        <option class=optionInModal > Luật kinh tế</option>
+                                        <option class=optionInModal > Luật quốc tế</option>
+                                        <option class=optionInModal > Ngành triết học</option>
+                                        <option class=optionInModal > Ngành lịch sử học</option>
+                                        <option class=optionInModal > Ngành văn học</option>
+                                        <option class=optionInModal > Ngành văn hóa học</option>
+                                        <option class=optionInModal > Ngành quản lý văn hóa</option>
+                                        <option class=optionInModal > Ngành quản lý thể dục thể thao</option>
+                                        <option class=optionInModal > Ngành hội họa</option>
+                                        <option class=optionInModal > Ngành đồ họa</option>
+                                        <option class=optionInModal > Ngành điêu khắc</option>
+                                        <option class=optionInModal > Ngành gốm</option>
+                                        <option class=optionInModal > Ngành thiết kế công nghiệp</option>
+                                        <option class=optionInModal > Ngành thiết kế đồ họa</option>
+                                        <option class=optionInModal > Ngành thiết kế thời trang</option>
+                                        <option class=optionInModal > Ngành thiết kế nội thất</option>
+                                        <option class=optionInModal > Ngành kinh tế</option>
+                                        <option class=optionInModal > Ngành kinh tế quốc tế</option>
+                                        <option class=optionInModal > Ngành chính trị học</option>
+                                        <option class=optionInModal > Ngành xây dựng đảng chỉnh quyền và nhà nước</option>
+                                        <option class=optionInModal > Ngành quản lý nhà nước</option>
+                                        <option class=optionInModal > Ngành quan hệ quốc tế</option>
+                                        <option class=optionInModal > Ngành xã hội học</option>
+                                        <option class=optionInModal > Ngành nhân văn</option>
+                                        <option class=optionInModal > Ngành tâm lý học</option>
+                                        <option class=optionInModal > Ngành báo chí</option>
+                                        <option class=optionInModal > Ngành truyền thông đa phương tiện</option>
+                                        <option class=optionInModal > Ngành công nghệ truyền thông</option>
+                                        <option class=optionInModal > Ngành quan hệ công chúng</option>
+                                        <option class=optionInModal > Ngành thông tin học</option>
+                                        <option class=optionInModal > Ngành khoa học thư viện</option>
+                                        <option class=optionInModal > Ngành lưu trữ học</option>
+                                        <option class=optionInModal > Ngành bảo tàng học</option>
+                                        <option class=optionInModal > Ngành xuất bản</option>
+                                        <option class=optionInModal > Ngành kinh doanh xuất bản phẩm</option>
+                                        <option class=optionInModal > Ngành công nghệ sinh học</option>
+                                        <option class=optionInModal > Ngành sinh học</option>
+                                        <option class=optionInModal > Ngành kỹ thuật sinh học</option>
+                                        <option class=optionInModal > Ngành sinh học ứng dụng</option>
+                                        <option class=optionInModal > Ngành thiên văn học</option>
+                                        <option class=optionInModal > Ngành vật lý học</option>
+                                        <option class=optionInModal > Ngành hóa học</option>
+                                        <option class=optionInModal > Ngành khoa học vật liệu</option>
+                                        <option class=optionInModal > Ngành địa chất học</option>
+                                        <option class=optionInModal > Ngành địa lý tự nhiên</option>
+                                        <option class=optionInModal > Ngành khí tượng học</option>
+                                        <option class=optionInModal > Ngành thủy văn học</option>
+                                        <option class=optionInModal > Ngành hải dương học</option>
+                                        <option class=optionInModal > Ngành khoa học môi trường</option>
+                                        <option class=optionInModal > Ngành khoa học đất</option>
+                                        <option class=optionInModal > Ngành toán học</option>
+                                        <option class=optionInModal > Ngành toán ứng dụng</option>
+                                        <option class=optionInModal > Ngành thống kê- Ngành quản lý giáo dục</option>
+                                        <option class=optionInModal > Ngành giáo dục học</option>
+                                        <option class=optionInModal > Ngành sư phạm</option>
+                                        <option class=optionInModal > Ngành nông nghiệp (các ngành nông nghiệp - thú y)</option>
+                                        <option class=optionInModal > Ngành khuyến nông</option>
+                                        <option class=optionInModal > Ngành chăn nuôi</option>
+                                        <option class=optionInModal > Ngành nông học</option>
+                                        <option class=optionInModal > Ngành khoa học cây trồng</option>
+                                        <option class=optionInModal > Ngành công nghệ rau hoa quả - cảnh quan</option>
+                                        <option class=optionInModal > Ngành kinh doanh nông nghiệp</option>
+                                        <option class=optionInModal > Ngành kinh tế nông nghiệp</option>
+                                        <option class=optionInModal > Ngành phát triển nông thôn</option>    
                                     </div>
                                     <h2 class="mb-4">
                                         Ngoài ngành học chính ra, bạn có quan
@@ -206,8 +327,29 @@
                                         </span>
                                         <input
                                             type="text"
-                                            class="form-control mr-3"
-                                        />
+                                            class="form-control mr-3 multidatalist"
+                                            multiple="multiple"
+                                            list="inputGroupSelect02"
+                                            onChange=addComma(this)
+                                        >
+                                        <datalist id="inputGroupSelect02">
+                                            <option class=optionInModal >Trình độ chuyên môn giỏi</option>
+                                            <option class=optionInModal >Thông thạo nhiều thứ tiếng (tiếng Anh, tiếng Trung, tiếng Nhật, tiếng Hàn,...)</option>
+                                            <option class=optionInModal >Thành thạo tin học văn phòng</option>
+                                            <option class=optionInModal >Trung thực, đáng tin cậy</option>
+                                            <option class=optionInModal >Tinh thần trách nhiệm cao</option>
+                                            <option class=optionInModal >Nhiệt tình, hăng hái, không ngại khó ngại khổ</option>
+                                            <option class=optionInModal >Khả năng tư duy sáng tạo</option>
+                                            <option class=optionInModal >Vui vẻ, tích cực với mọi người xung quanh</option>
+                                            <option class=optionInModal >Tinh thần cầu tiến</option>
+                                            <option class=optionInModal >Kỹ năng giao tiếp tốt</option>
+                                            <option class=optionInModal >Làm việc có nguyên tắc, đúng giờ</option>
+                                            <option class=optionInModal >Kỹ năng làm việc nhóm</option>
+                                            <option class=optionInModal >Kỹ năng giải quyết vấn đề</option>
+                                            <option class=optionInModal >Kỹ năng đàm phán, thương lượng</option>
+                                            <option class=optionInModal >Kỹ năng bán hàng</option>
+                                            <option class=optionInModal >Có nhiều tài lẻ (biết ca hát, chơi đàn, chơi sáo, làm MC,..)</option>    
+                                        </datalist>
                                     </div>
                                     <div class="input-group mb-3">
                                         <span
@@ -218,8 +360,23 @@
                                         </span>
                                         <input
                                             type="text"
-                                            class="form-control mr-3"
-                                        />
+                                            class="form-control mr-3 multidatalist"
+                                            multiple="multiple"
+                                            list="inputGroupSelect03"
+                                            onChange=addComma(this)
+                                            />
+                                        <datalist id="inputGroupSelect03">
+                                            <option class=optionInModal >Nhạy cảm quá mức</option>
+                                            <option class=optionInModal >Mất kiên nhẫn, cả thèm chóng chán</option>
+                                            <option class=optionInModal >Không dám phát biểu trước đám đông</option>
+                                            <option class=optionInModal >Tính háo thắng</option>
+                                            <option class=optionInModal >Làm việc và ra quyết định thiên về cảm tính</option>
+                                            <option class=optionInModal >Không lập kế hoạch rõ ràng trước khi thực hiện</option>
+                                            <option class=optionInModal >Bảo thủ, không bao giờ lắng nghe góp ý của người khác</option>
+                                            <option class=optionInModal >Khả năng tính toán kém</option>
+                                            <option class=optionInModal >Sống ích kỷ, không có thói quen chia sẻ</option>
+                                            <option class=optionInModal >Dễ nổi nóng và mất bình tĩnh</option>
+                                        </datalist>
                                     </div>
                                     <h2 class="mb-4">
                                         Bạn có tham gia các hoạt động ngoại khoá
@@ -359,11 +516,15 @@
                                         <input
                                             type="text"
                                             class="form-control mr-3"
+                                            list="inputGroupSelect04"
                                         />
+                                        <datalist>
+
+                                        </datalist>
                                     </div>
                                 </div>
 
-                                <div class="carousel-item">
+                                <div class="carousel-item carousel-end">
                                     <h2 class="mb-4">
                                         Bạn có đam mê theo đuổi ngành học này
                                         không? Hay bạn chỉ muốn kiếm học bổng
@@ -507,6 +668,83 @@
                                         >
                                     </div>
                                 </div>
+
+                                <div class="carousel-item carousel-end">
+                                    <h2 class="mb-4">
+                                        Quốc gia bạn muốn du học tới:
+                                    </h2>
+                                    <div class="input-group mb-3">
+                                        <span
+                                            style="color: #fff"
+                                            class="text-block mr-2 ml-2"
+                                        >
+                                            Trả lời:
+                                        </span>
+                                        <input
+                                            type="text"
+                                            class="form-control mr-3 singleInput"
+                                            list="inputGroupSelect07"
+                                        />
+                                        <datalist
+                                            id="inputGroupSelect07"
+                                            
+                                        >
+                                        <option class=optionInModal > Mỹ</option>
+                                        <option class=optionInModal > Anh</option>
+                                        <option class=optionInModal > Singapore</option>
+                                        <option class=optionInModal > Trung Quốc</option>
+                                        <option class=optionInModal > Nhật Bản</option>    
+                                    </div>
+                                    <h2 class="mb-4">
+                                        Trường mà bạn muốn vào:
+                                    </h2>
+                                    <div class="input-group mb-3">
+                                        <span
+                                            style="color: #fff"
+                                            class="text-block mr-2 ml-2"
+                                        >
+                                            Trả lời:
+                                        </span>
+                                        <input
+                                            type="text"
+                                            class="form-control mr-3 singleInput"
+                                            list="inputGroupSelect08"
+                                        />
+                                        <datalist
+                                            id="inputGroupSelect08"
+                                            
+                                        >
+                                        <option class=optionInModal > Uit</option>
+                                        <option class=optionInModal > Uit</option>
+                                        <option class=optionInModal > Uit</option>
+                                        <option class=optionInModal > Uit</option>
+                                        <option class=optionInModal > Uit</option>    
+                                    </div>
+                                    <h2 class="mb-4">
+                                        khả năng hỗ trợ tài chính của gia đình bạn mỗi tháng?
+                                    </h2>
+                                    <div class="input-group mb-3">
+                                        <span
+                                            style="color: #fff"
+                                            class="text-block mr-2 ml-2"
+                                        >
+                                            Trả lời:
+                                        </span>
+                                        <input
+                                            type="text"
+                                            class="form-control mr-3 singleInput"
+                                            list="inputGroupSelect09"
+                                        />
+                                        <datalist
+                                            id="inputGroupSelect09"
+                                            
+                                        >
+                                        <option class=optionInModal > Trên 50 triệu</option>
+                                        <option class=optionInModal > Từ 20 đến 50 triệu</option>
+                                        <option class=optionInModal > Từ 10 đến 20 triệu</option>
+                                        <option class=optionInModal > Dưới 10 triệu và dựa vào bản thân</option>    
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -515,21 +753,30 @@
                     <div class="modal-footer">
                         <button
                             type="button"
-                            class="btn btn-secondary mr-auto"
+                            class="btn btn-secondary mr-auto modal-button"
                             href="#myCarousel"
                             data-slide="prev"
                             id="leftButton"
                         >
-                            Quay lại
+                            ← Quay lại
                         </button>
                         <button
                             type="button"
-                            class="btn btn-secondary"
+                            class="btn btn-secondary mr-auto ml-auto modal-button"
+                            data-target="#myCarousel"
+                            data-slide-to="0"
+                            id="centerButton"
+                        >
+                            ↺ Chọn lại từ đầu
+                        </button>
+                        <button
+                            type="button"
+                            class="btn btn-secondary ml-auto modal-button"
                             href="#myCarousel"
                             data-slide="next"
                             id="rightButton"
                         >
-                            Tiếp tục
+                            Tiếp tục →
                         </button>
                     </div>
                 </div>
@@ -538,6 +785,7 @@
         <!-- end of modal -->
         <!-- page container -->
         <div class="container page-container" id="Danhsach" hidden="true">
+            
             <div class="col-md-10 col-lg-8 m-auto">
                 <h6 class="title mb-4">
                     Kết quả cho các học bổng bạn muốn tìm kiếm:
@@ -545,8 +793,14 @@
                 <p class="mb-5"></p>
             </div>
 
+            <div class="justify-content-center spinner1s">
+                <div class="spinner-border" role="status">
+                  <span class="sr-only">Loading...</span>
+                </div>
+              </div>
+
             <!-- row -->
-            <div class="row mb-4">
+            <div class="row mb-4 spinning after-spinner">
                 <div class="col-md-4">
                     <a href="javascript:void(0)">
                         <a href="info.html" class="overlay-img">
@@ -641,7 +895,7 @@
             </div>
             <!-- end of row -->
 
-            <a href="list.html">
+            <a class="spinning after-spinner" href="list.html" id="loadmore">
                 Load More <i class="ti-angle-double-right angle"></i>
             </a>
         </div>
@@ -905,6 +1159,11 @@
             $(".closeModal").click(function () {
                 $(".modal-body input").val("");
                 $(".modalBox").removeClass("show");
+                $(".carousel-item").removeClass("active");
+                $(".carousel-item:first").addClass("active");
+                $("#leftButton").hide();
+                $("#rightButton").hide();
+
             });
 
             $(".sign-in-btn").click(function () {
@@ -913,18 +1172,48 @@
 
             $("#signed-in").click(function () {
                 $("#signinModal").modal("hide");
-                document.getElementById("sign-in").style.display = 'none';
-                document.getElementById("dropdownMenuButton").style.display = 'block';
+                document.getElementById("sign-in").style.display = "none";
+                document.getElementById("dropdownMenuButton").style.display =
+                    "block";
                 document.getElementById("dropdownMenuButton").innerHTML =
                     "Xin chào, " + document.getElementById("inputEmail").value;
             });
 
-            $(".finishSearch").click(function () {
-                document.getElementById("Danhsach").removeAttribute("Hidden");
-                document
-                    .getElementById("Danhsach")
-                    .scrollIntoView({ behavior: "smooth", block: "end" });
-                $(".modalBox").removeClass("show");
+            $(".singleInput").focusin ( function (e) {
+                e.currentTarget.value = "";
+            });
+
+            $(".multidatalist").focusin ( function(e) { 
+                $(this).attr("type","email");
+                
+                var input = e.currentTarget.value;
+                if (input.charAt(input.length - 1) != "," && input != '')
+                {
+                    input = input + ',';
+                    e.currentTarget.value = input;
+                }
+            });    
+            $(".multidatalist").focusout( function(e) { 
+                $(this).attr("type","textbox"); 
+
+                var input = e.currentTarget.value;
+                if (input.charAt(input.length - 1) == ",")
+                {
+                    input = input.slice(0, - 1);
+                    e.currentTarget.value = input;
+                }
+                
+                
+            });
+
+            function addComma(e) {
+                e.value = e.value + ',';
+            }
+
+            $("#schoolSearch").click(function () {
+                $("#rightButton").text("Hoàn thành");
+                $("#rightButton").show();
+                $('#centerButton').removeClass('ml-auto');
             });
 
             $(document).ready(function () {
@@ -938,22 +1227,25 @@
                     $(".carousel-inner .carousel-item:first").hasClass("active")
                 ) {
                     $("#leftButton").hide();
-                    $("#rightButton").show();
+                    $("#rightButton").hide();
+                    $('#centerButton').hide();
                 } else if (
-                    $(".carousel-inner .carousel-item:last").hasClass("active")
+                    $(".carousel-inner .carousel-end").hasClass("active")
                 ) {
                     $("#rightButton").text("Hoàn thành");
+                    $('#centerButton').show();
                 } else {
                     $("#leftButton").show();
-                    $("#rightButton").text("Tiếp tục");
+                    $("#rightButton").text("Tiếp tục →");
                     $("#rightButton").show();
+                    $('#centerButton').show();
+                    $('#centerButton').addClass('ml-auto');
                 }
             }
 
             $("#rightButton").click(function () {
-                if (
-                    $(".carousel-inner .carousel-item:last").hasClass("active")
-                ) {
+                if ( $(".carousel-inner .carousel-end").hasClass("active") ) 
+                {
                     $(".modalBox").removeClass("show");
                     document
                         .getElementById("Danhsach")
@@ -962,9 +1254,24 @@
                         .getElementById("Danhsach")
                         .scrollIntoView({ behavior: "smooth", block: "end" });
                     $(".carousel").carousel(0);
-                    $("#rightButton").text("Tiếp tục");
+                    $("#rightButton").text("Tiếp tục →");
+                    spin();
                 }
             });
+
+            function spin() {
+                $('.spinning').addClass('after-spinner');
+                $('.spinner1s').removeClass('after-spinner');
+                setTimeout(showPage, 1000);
+            }
+            
+            function showPage() {
+              $('.spinning').removeClass('after-spinner');
+              $('.spinner1s').addClass('after-spinner');
+              document
+                        .getElementById("loadmore")
+                        .scrollIntoView({ behavior: "smooth", block: "end" });
+            }
         </script>
         <script type="text/javascript">
             function toggleResetPswd(e) {

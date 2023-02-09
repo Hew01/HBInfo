@@ -11839,7 +11839,7 @@ body.dark-theme {
 
 .top-content .carousel-item {
   height: auto;
-  min-height: 71vh;
+  min-height: 61vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -12010,4 +12010,17 @@ body.dark-theme {
 
 .loveText:hover {
   color: red;
+}
+
+.spinner1s {
+  color: white;
+}
+
+.after-spinner {
+  display: none;
+}
+
+.modal-button {
+  background-color: transparent;
+  border: none;
 }
