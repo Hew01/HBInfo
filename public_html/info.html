@@ -69,7 +69,7 @@
                             class="dropdown-menu"
                             aria-labelledby="dropdownMenuButton"
                         >
-                            <a class="dropdown-item" href="#"
+                            <a class="dropdown-item" href="favorite.html"
                                 >Danh sách yêu thích</a
                             >
                             <a class="dropdown-item" href="#">Cài đặt</a>
@@ -178,6 +178,23 @@
                                     NOW
                                 </p>
                             </button>
+                            <div
+                                class="pl-2 pt-2 loveBtn loveText"
+                                text="0"
+                                style="display: inline-flex"
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    width="24"
+                                    height="24"
+                                >
+                                    <path
+                                        d="m12 20.703.343.667a.748.748 0 0 1-.686 0l-.003-.002-.007-.003-.025-.013a31.138 31.138 0 0 1-5.233-3.576C3.8 15.573 1 12.332 1 8.514v-.001C1 5.053 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262a31.148 31.148 0 0 1-5.233 3.576l-.025.013-.007.003-.002.001ZM6.736 4C4.657 4 2.5 5.88 2.5 8.514c0 3.107 2.324 5.96 4.861 8.12a29.655 29.655 0 0 0 4.566 3.175l.073.041.073-.04c.271-.153.661-.38 1.13-.674.94-.588 2.19-1.441 3.436-2.502 2.537-2.16 4.861-5.013 4.861-8.12C21.5 5.88 19.343 4 17.264 4c-2.106 0-3.801 1.389-4.553 3.643a.751.751 0 0 1-1.422 0C10.537 5.389 8.841 4 6.736 4Z"
+                                    ></path>
+                                </svg>
+                                <h5 class="pl-2 loveText">Yêu thích</h5>
+                            </div>
                         </div>
                     </div>
                     <div class="blog-post mt-2">
@@ -201,6 +218,26 @@
                         <h2 class="blog-post-title mb-3 mt-5" id="introduction">
                             Giới thiệu sơ:
                         </h2>
+                        <ul>
+                            <li style="color: white">
+                                <p>
+                                    Địa chỉ liên hệ:
+                                    <a
+                                        href="https://forum.uit.edu.vn/node/558864"
+                                        >Forum trường</a
+                                    >
+                                </p>
+                            </li>
+
+                            <li style="color: white">
+                                <p>
+                                    Email:
+                                    <a href="mailto:ctsv@uit.edu.vn"
+                                        >ctsv@uit.edu.vn</a
+                                    >
+                                </p>
+                            </li>
+                        </ul>
                         <p>
                             Phòng Đào tạo Sau đại học và Khoa học Công nghệ
                             thông báo đến các Anh/Chị học viên cao học về học
@@ -833,6 +870,10 @@
         <!-- Dorang js -->
         <script src="assets/js/dorang.js"></script>
         <script>
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+
             $(".sign-in-btn").click(function () {
                 $("#signinModal").modal();
             });
@@ -844,6 +885,30 @@
                     "block";
                 document.getElementById("dropdownMenuButton").innerHTML =
                     "Xin chào, " + document.getElementById("inputEmail").value;
+            });
+
+            $(".loveBtn").click(function (e) {
+                if (e.currentTarget.getAttribute("text") === "0") {
+                    e.currentTarget.setAttribute("text", "1");
+                    e.currentTarget.firstElementChild.firstElementChild.setAttribute(
+                        "d",
+                        "M14 20.408c-.492.308-.903.546-1.192.709-.153.086-.308.17-.463.252h-.002a.75.75 0 0 1-.686 0 16.709 16.709 0 0 1-.465-.252 31.147 31.147 0 0 1-4.803-3.34C3.8 15.572 1 12.331 1 8.513 1 5.052 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262A31.146 31.146 0 0 1 14 20.408Z"
+                    );
+                    e.currentTarget.firstElementChild.setAttribute(
+                        "fill",
+                        "#ff0000"
+                    );
+                } else {
+                    e.currentTarget.setAttribute("text", "0");
+                    e.currentTarget.firstElementChild.firstElementChild.setAttribute(
+                        "d",
+                        "m12 20.703.343.667a.748.748 0 0 1-.686 0l-.003-.002-.007-.003-.025-.013a31.138 31.138 0 0 1-5.233-3.576C3.8 15.573 1 12.332 1 8.514v-.001C1 5.053 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262a31.148 31.148 0 0 1-5.233 3.576l-.025.013-.007.003-.002.001ZM6.736 4C4.657 4 2.5 5.88 2.5 8.514c0 3.107 2.324 5.96 4.861 8.12a29.655 29.655 0 0 0 4.566 3.175l.073.041.073-.04c.271-.153.661-.38 1.13-.674.94-.588 2.19-1.441 3.436-2.502 2.537-2.16 4.861-5.013 4.861-8.12C21.5 5.88 19.343 4 17.264 4c-2.106 0-3.801 1.389-4.553 3.643a.751.751 0 0 1-1.422 0C10.537 5.389 8.841 4 6.736 4Z"
+                    );
+                    e.currentTarget.firstElementChild.setAttribute(
+                        "fill",
+                        "#000000"
+                    );
+                }
             });
         </script>
         <script type="text/javascript">

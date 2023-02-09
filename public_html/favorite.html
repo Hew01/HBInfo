@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta
+            name="description"
+            content="Start your development with Dorang landing page."
+        />
+        <meta name="author" content="Devcrud" />
+        <title>Dorang | Free Bootstrap 4.3.x template</title>
+        <!-- font icons -->
+        <link
+            rel="stylesheet"
+            href="assets/vendors/themify-icons/css/themify-icons.css"
+        />
+
+        <!-- Bootstrap + Dorang main styles -->
+        <link rel="stylesheet" href="assets/css/dorang.css" />
+    </head>
+    <body
+        data-spy="scroll"
+        data-target=".navbar"
+        data-offset="40"
+        id="home"
+        class="dark-theme"
+    >
+        <!-- page navbar -->
+        <nav class="page-navbar" data-spy="affix" data-offset-top="10">
+            <ul class="nav-navbar container">
+                <li class="nav-item">
+                    <a href="./index.html" class="nav-link">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./list.html" class="nav-link">Danh sách</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./index.html" class="nav-link">
+                        <img src="assets/imgs/label.svg" />
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Lienhe" class="nav-link">Liên hệ</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link sign-in-btn" id="sign-in"
+                        >Đăng nhập</a
+                    >
+                    <div class="dropdown">
+                        <button
+                            class="btn btn-secondary dropdown-toggle nav-item"
+                            type="button"
+                            id="dropdownMenuButton"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            style="
+                                background-color: transparent;
+                                border: none;
+                                display: none;
+                            "
+                        >
+                            Dropdown button
+                        </button>
+                        <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton"
+                        >
+                            <a class="dropdown-item" href="favorite.html"
+                                >Danh sách yêu thích</a
+                            >
+                            <a class="dropdown-item" href="#">Cài đặt</a>
+                            <a class="dropdown-item" href="#">Đăng xuất</a>
+                        </div>
+                    </div>
+                </li>
+
+                <!--nav item search
+            <li class="nav-item search">
+                <a href="javascript:void(0)" class="nav-link search-toggle"><i class="ti-search"></i> Search</a>
+                <div class="search-wrapper">
+                    <form>
+                        <input type="search" class="form-control" name="" placeholder="hit enter to search">
+                    </form>
+                </div>
+            </li>
+        -->
+            </ul>
+        </nav>
+        <!-- end of page navbar -->
+
+        <div
+            class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center mt-5"
+        >
+            <h1 class="display-4">Danh sách các học bổng</h1>
+            <p class="lead ml-5 mr-5">
+                Tổng hợp học bổng từ nhiều trường đại học khác nhau trên toàn
+                quốc.
+            </p>
+        </div>
+
+        <div class="container">
+            
+            <div class="card mb-3 mt-5">
+                <div class="row">
+                    <div class="col-10">
+                        <a class="row no-gutters" href="info.html">
+                            <div class="col-md-4">
+                                <img
+                                    src="assets/imgs/img-1.jpg"
+                                    class="card-img"
+                                    alt="..."
+                                    style="height: 200px; object-fit: cover"
+                                />
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body fix-margin-left">
+                                    <h5 class="card-title">
+                                        Trường ĐH Công nghệ thông tin
+                                    </h5>
+                                    <p class="card-text">
+                                        Học bổng lên tới 80%
+                                    </p>
+                                    <h6>
+                                        <span class="tag-subject tag1"
+                                            >GPA > 9</span
+                                        >
+                                        <span class="tag-subject tag2"
+                                            >CNTT</span
+                                        >
+                                        <span class="tag-subject tag3"
+                                            >GT Quốc gia</span
+                                        >
+                                    </h6>
+                                    <p class="card-text">
+                                        <small class="text-muted"
+                                            >Last updated 3 mins ago</small
+                                        >
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-2">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            width="24"
+                            height="24"
+                            style="fill: green"
+                            data-toggle="tooltip"
+                            title="Chứng nhận"
+                        >
+                            <path
+                                d="M1 12C1 5.925 5.925 1 12 1s11 4.925 11 11-4.925 11-11 11S1 18.075 1 12Zm16.28-2.72a.751.751 0 0 0-.018-1.042.751.751 0 0 0-1.042-.018l-5.97 5.97-2.47-2.47a.751.751 0 0 0-1.042.018.751.751 0 0 0-.018 1.042l3 3a.75.75 0 0 0 1.06 0Z"
+                            ></path>
+                        </svg>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            width="24"
+                            height="24"
+                            data-toggle="tooltip"
+                            title="Yêu thích"
+                            class="loveBtn"
+                            text="1"
+                            style="fill: #ff0000"
+                        >
+                            <path
+                                d="M14 20.408c-.492.308-.903.546-1.192.709-.153.086-.308.17-.463.252h-.002a.75.75 0 0 1-.686 0 16.709 16.709 0 0 1-.465-.252 31.147 31.147 0 0 1-4.803-3.34C3.8 15.572 1 12.331 1 8.513 1 5.052 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262A31.146 31.146 0 0 1 14 20.408Z"
+                            ></path>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class=""></div>
+            </div>
+
+            <div class="card mb-3 mt-5">
+                <div class="row">
+                    <div class="col-10">
+                        <a class="row no-gutters" href="info.html">
+                            <div class="col-md-4">
+                                <img
+                                    src="assets/imgs/img-2.jpg"
+                                    class="card-img"
+                                    alt="..."
+                                    style="height: 200px; object-fit: cover"
+                                />
+                            </div>
+
+                            <div class="col-md-8">
+                                <div class="card-body fix-margin-left">
+                                    <h5 class="card-title">Trường ĐH FPT</h5>
+                                    <p class="card-text">
+                                        Học bổng lên tới 100%
+                                    </p>
+                                    <h6>
+                                        <span class="tag-subject tag1"
+                                            >GPA > 9</span
+                                        >
+                                        <span class="tag-subject tag2"
+                                            >CNTT</span
+                                        >
+                                        <span class="tag-subject tag3"
+                                            >GT Quốc gia</span
+                                        >
+                                    </h6>
+                                    <p class="card-text">
+                                        <small class="text-muted"
+                                            >Last updated 2 days ago</small
+                                        >
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-2">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            width="24"
+                            height="24"
+                            data-toggle="tooltip"
+                            title="Yêu thích"
+                            class="loveBtn"
+                            text="1"
+                            style="fill: #ff0000"
+                        >
+                            <path
+                                d="M14 20.408c-.492.308-.903.546-1.192.709-.153.086-.308.17-.463.252h-.002a.75.75 0 0 1-.686 0 16.709 16.709 0 0 1-.465-.252 31.147 31.147 0 0 1-4.803-3.34C3.8 15.572 1 12.331 1 8.513 1 5.052 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262A31.146 31.146 0 0 1 14 20.408Z"
+                            ></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="modal fade"
+            id="signinModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="signinModal"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog" role="document">
+                <div class="modal-content" style="background: #1e1e1e">
+                    <div class="modal-body text-center">
+                        <div id="logreg-forms">
+                            <form class="form-signin">
+                                <h1
+                                    class="h3 mb-3 font-weight-normal"
+                                    style="text-align: center"
+                                >
+                                    Sign in
+                                </h1>
+                                <div class="social-login">
+                                    <button
+                                        class="btn facebook-btn social-btn"
+                                        type="button"
+                                    >
+                                        <span
+                                            ><i class="fab fa-facebook-f"></i>
+                                            Sign in with Facebook</span
+                                        >
+                                    </button>
+                                    <button
+                                        class="btn google-btn social-btn"
+                                        type="button"
+                                    >
+                                        <span
+                                            ><i
+                                                class="fab fa-google-plus-g"
+                                            ></i>
+                                            Sign in with Google+</span
+                                        >
+                                    </button>
+                                </div>
+                                <p style="text-align: center">OR</p>
+                                <input
+                                    type="email"
+                                    id="inputEmail"
+                                    class="form-control"
+                                    placeholder="Email address"
+                                    required=""
+                                    autofocus=""
+                                />
+                                <input
+                                    type="password"
+                                    id="inputPassword"
+                                    class="form-control"
+                                    placeholder="Password"
+                                    required=""
+                                />
+
+                                <button
+                                    class="btn btn-success btn-block"
+                                    id="signed-in"
+                                >
+                                    <i class="fas fa-sign-in-alt"></i> Sign in
+                                </button>
+                                <a href="#" id="forgot_pswd"
+                                    >Forgot password?</a
+                                >
+                                <hr />
+                                <!-- <p>Don't have an account!</p>  -->
+                                <button
+                                    class="btn btn-primary btn-block"
+                                    type="button"
+                                    id="btn-signup"
+                                >
+                                    <i class="fas fa-user-plus"></i> Sign up New
+                                    Account
+                                </button>
+                            </form>
+
+                            <form
+                                action=""
+                                class="form-reset"
+                                style="display: none"
+                            >
+                                <input
+                                    type="email"
+                                    id="resetEmail"
+                                    class="form-control"
+                                    placeholder="Email address"
+                                    required=""
+                                    autofocus=""
+                                />
+                                <button
+                                    class="btn btn-primary btn-block"
+                                    type="submit"
+                                >
+                                    Reset Password
+                                </button>
+                                <a href="#" id="cancel_reset"
+                                    ><i class="fas fa-angle-left"></i> Back</a
+                                >
+                            </form>
+
+                            <form
+                                action=""
+                                class="form-signup"
+                                style="display: none"
+                            >
+                                <div class="social-login">
+                                    <button
+                                        class="btn facebook-btn social-btn"
+                                        type="button"
+                                    >
+                                        <span
+                                            ><i class="fab fa-facebook-f"></i>
+                                            Sign up with Facebook</span
+                                        >
+                                    </button>
+                                </div>
+                                <div class="social-login">
+                                    <button
+                                        class="btn google-btn social-btn"
+                                        type="button"
+                                    >
+                                        <span
+                                            ><i
+                                                class="fab fa-google-plus-g"
+                                            ></i>
+                                            Sign up with Google+</span
+                                        >
+                                    </button>
+                                </div>
+
+                                <p style="text-align: center">OR</p>
+
+                                <input
+                                    type="text"
+                                    id="user-name"
+                                    class="form-control"
+                                    placeholder="Full name"
+                                    required=""
+                                    autofocus=""
+                                />
+                                <input
+                                    type="email"
+                                    id="user-email"
+                                    class="form-control"
+                                    placeholder="Email address"
+                                    required=""
+                                    autofocus=""
+                                />
+                                <input
+                                    type="password"
+                                    id="user-pass"
+                                    class="form-control"
+                                    placeholder="Password"
+                                    required=""
+                                    autofocus=""
+                                />
+                                <input
+                                    type="password"
+                                    id="user-repeatpass"
+                                    class="form-control"
+                                    placeholder="Repeat Password"
+                                    required=""
+                                    autofocus=""
+                                />
+
+                                <button
+                                    class="btn btn-primary btn-block"
+                                    type="submit"
+                                >
+                                    <i class="fas fa-user-plus"></i> Sign Up
+                                </button>
+                                <a href="#" id="cancel_signup"
+                                    ><i class="fas fa-angle-left"></i> Back</a
+                                >
+                            </form>
+                            <br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="theme-selector">
+            <a href="javascript:void(0)" class="spinner">
+                <i class="ti-paint-bucket"></i>
+            </a>
+            <div class="body">
+                <a href="javascript:void(0)" class="light"></a>
+                <a href="javascript:void(0)" class="dark"></a>
+            </div>
+        </div>
+
+        <!-- core  -->
+        <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+        <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+        <!-- bootstrap affix -->
+        <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+        <!-- Dorang js -->
+        <script src="assets/js/dorang.js"></script>
+        <script>
+            $(".sign-in-btn").click(function () {
+                $("#signinModal").modal();
+            });
+
+            $("#signed-in").click(function () {
+                $("#signinModal").modal("hide");
+                document.getElementById("sign-in").style.display = "none";
+                document.getElementById("dropdownMenuButton").style.display =
+                    "block";
+                document.getElementById("dropdownMenuButton").innerHTML =
+                    "Xin chào, " + document.getElementById("inputEmail").value;
+            });
+
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+
+            $(".loveBtn").click(function (e) {
+                if (e.currentTarget.getAttribute("text") === "0") {
+                    e.currentTarget.setAttribute("text", "1");
+                    e.currentTarget.firstElementChild.setAttribute(
+                        "d",
+                        "M14 20.408c-.492.308-.903.546-1.192.709-.153.086-.308.17-.463.252h-.002a.75.75 0 0 1-.686 0 16.709 16.709 0 0 1-.465-.252 31.147 31.147 0 0 1-4.803-3.34C3.8 15.572 1 12.331 1 8.513 1 5.052 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262A31.146 31.146 0 0 1 14 20.408Z"
+                    );
+                    e.currentTarget.setAttribute("fill", "#ff0000");
+                } else {
+                    e.currentTarget.setAttribute("text", "0");
+                    e.currentTarget.firstElementChild.setAttribute(
+                        "d",
+                        "m12 20.703.343.667a.748.748 0 0 1-.686 0l-.003-.002-.007-.003-.025-.013a31.138 31.138 0 0 1-5.233-3.576C3.8 15.573 1 12.332 1 8.514v-.001C1 5.053 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262a31.148 31.148 0 0 1-5.233 3.576l-.025.013-.007.003-.002.001ZM6.736 4C4.657 4 2.5 5.88 2.5 8.514c0 3.107 2.324 5.96 4.861 8.12a29.655 29.655 0 0 0 4.566 3.175l.073.041.073-.04c.271-.153.661-.38 1.13-.674.94-.588 2.19-1.441 3.436-2.502 2.537-2.16 4.861-5.013 4.861-8.12C21.5 5.88 19.343 4 17.264 4c-2.106 0-3.801 1.389-4.553 3.643a.751.751 0 0 1-1.422 0C10.537 5.389 8.841 4 6.736 4Z"
+                    );
+                    e.currentTarget.setAttribute("fill", "#000000");
+                }
+            });
+        </script>
+        <script type="text/javascript">
+            function toggleResetPswd(e) {
+                e.preventDefault();
+                $("#logreg-forms .form-signin").toggle(); // display:block or none
+                $("#logreg-forms .form-reset").toggle(); // display:block or none
+            }
+
+            function toggleSignUp(e) {
+                e.preventDefault();
+                $("#logreg-forms .form-signin").toggle(); // display:block or none
+                $("#logreg-forms .form-signup").toggle(); // display:block or none
+            }
+
+            $(() => {
+                // Login Register Form
+                $("#logreg-forms #forgot_pswd").click(toggleResetPswd);
+                $("#logreg-forms #cancel_reset").click(toggleResetPswd);
+                $("#logreg-forms #btn-signup").click(toggleSignUp);
+                $("#logreg-forms #cancel_signup").click(toggleSignUp);
+            });
+        </script>
+    </body>
+</html>
