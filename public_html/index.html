@@ -487,7 +487,7 @@
 
                                 <div class="carousel-item">
                                     <h2 class="mb-4">
-                                        Về dự án, bạn đang lên kế hoạch cho học
+                                        Về dự án, bạn đang lên kế hoạch gì cho học
                                         bổng bạn nhắm tới?
                                     </h2>
                                     <div class="input-group mb-3">
@@ -499,8 +499,17 @@
                                         </span>
                                         <input
                                             type="text"
-                                            class="form-control mr-3"
+                                            class="form-control mr-3 multidatalist"
+                                            multiple="multiple"
+                                            list="inputGroupSelect04"
+                                            onChange=addComma(this)
                                         />
+                                        <datalist id="inputGroupSelect04">
+                                            <option class=optionInModal >Thêm kiến thức chuyên môn</option>
+                                            <option class=optionInModal >Cần đầu tư</option>
+                                            <option class=optionInModal >Cần người hướng dẫn</option>
+                                            <option class=optionInModal >Cần trải nghiệm thực tế</option>
+                                        </datalist>
                                     </div>
                                     <h2 class="mb-4">
                                         Về sản phẩm, bạn đã làm gì để đạt học
@@ -513,14 +522,10 @@
                                         >
                                             - Trả lời:
                                         </span>
-                                        <input
-                                            type="text"
-                                            class="form-control mr-3"
-                                            list="inputGroupSelect04"
-                                        />
-                                        <datalist>
-
-                                        </datalist>
+                                        <select class="mr-3 selectInModal">
+                                            <option class=optionInModal >Có </option>
+                                            <option class=optionInModal >Chưa có </option>
+                                        </select>
                                     </div>
                                 </div>
 
@@ -676,24 +681,17 @@
                                     <div class="input-group mb-3">
                                         <span
                                             style="color: #fff"
-                                            class="text-block mr-2 ml-2"
+                                            class="mr-2 ml-2 text-block"
                                         >
-                                            Trả lời:
+                                            - Trả lời:
                                         </span>
-                                        <input
-                                            type="text"
-                                            class="form-control mr-3 singleInput"
-                                            list="inputGroupSelect07"
-                                        />
-                                        <datalist
-                                            id="inputGroupSelect07"
-                                            
-                                        >
-                                        <option class=optionInModal > Mỹ</option>
-                                        <option class=optionInModal > Anh</option>
-                                        <option class=optionInModal > Singapore</option>
-                                        <option class=optionInModal > Trung Quốc</option>
-                                        <option class=optionInModal > Nhật Bản</option>    
+                                        <select class="mr-3 selectInModalBigger">
+                                            <option class=optionInModal > Mỹ</option>
+                                            <option class=optionInModal > Anh</option>
+                                            <option class=optionInModal > Singapore</option>
+                                            <option class=optionInModal > Trung Quốc</option>
+                                            <option class=optionInModal > Nhật Bản</option>        
+                                        </select>
                                     </div>
                                     <h2 class="mb-4">
                                         Trường mà bạn muốn vào:
@@ -701,48 +699,34 @@
                                     <div class="input-group mb-3">
                                         <span
                                             style="color: #fff"
-                                            class="text-block mr-2 ml-2"
+                                            class="mr-2 ml-2 text-block"
                                         >
-                                            Trả lời:
+                                            - Trả lời:
                                         </span>
-                                        <input
-                                            type="text"
-                                            class="form-control mr-3 singleInput"
-                                            list="inputGroupSelect08"
-                                        />
-                                        <datalist
-                                            id="inputGroupSelect08"
-                                            
-                                        >
-                                        <option class=optionInModal > Uit</option>
-                                        <option class=optionInModal > Uit</option>
-                                        <option class=optionInModal > Uit</option>
-                                        <option class=optionInModal > Uit</option>
-                                        <option class=optionInModal > Uit</option>    
+                                        <select class="mr-3 selectInModalBigger">
+                                            <option class=optionInModal > UIT</option>
+                                            <option class=optionInModal > Bách Khoa</option>
+                                            <option class=optionInModal > Khoa học tự nhiên</option>
+                                            <option class=optionInModal > Hutech</option>
+                                            <option class=optionInModal > FPT</option>      
+                                        </select>
                                     </div>
                                     <h2 class="mb-4">
-                                        khả năng hỗ trợ tài chính của gia đình bạn mỗi tháng?
+                                        Khả năng hỗ trợ tài chính của gia đình bạn mỗi tháng?
                                     </h2>
                                     <div class="input-group mb-3">
                                         <span
                                             style="color: #fff"
-                                            class="text-block mr-2 ml-2"
+                                            class="mr-2 ml-2 text-block"
                                         >
-                                            Trả lời:
+                                            - Trả lời:
                                         </span>
-                                        <input
-                                            type="text"
-                                            class="form-control mr-3 singleInput"
-                                            list="inputGroupSelect09"
-                                        />
-                                        <datalist
-                                            id="inputGroupSelect09"
-                                            
-                                        >
-                                        <option class=optionInModal > Trên 50 triệu</option>
-                                        <option class=optionInModal > Từ 20 đến 50 triệu</option>
-                                        <option class=optionInModal > Từ 10 đến 20 triệu</option>
-                                        <option class=optionInModal > Dưới 10 triệu và dựa vào bản thân</option>    
+                                        <select class="mr-3 selectInModalBigger">
+                                            <option class=optionInModal > Trên 50 triệu</option>
+                                            <option class=optionInModal > Từ 20 đến 50 triệu</option>
+                                            <option class=optionInModal > Từ 10 đến 20 triệu</option>
+                                            <option class=optionInModal > Dưới 10 triệu và dựa vào bản thân</option>       
+                                        </select>
                                     </div>
                                 </div>
                             </div>
@@ -1207,7 +1191,7 @@
             });
 
             function addComma(e) {
-                e.value = e.value + ',';
+                e.value = e.value.toLowerCase() + ',';
             }
 
             $("#schoolSearch").click(function () {

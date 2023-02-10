@@ -12024,3 +12024,19 @@ body.dark-theme {
   background-color: transparent;
   border: none;
 }
+
+.optionInModal {
+  background-color: #1E1E1E;
+}
+
+.selectInModal {
+  background-color: #1E1E1E;
+  color: white;
+  min-width: 15%;
+}
+
+.selectInModalBigger {
+  background-color: #1E1E1E;
+  color: white;
+  min-width: 30%;
+}
