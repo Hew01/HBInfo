@@ -1,5 +1,6 @@
 ## Scholarship Information
-Website thats can help companys to post recuitment and candidates to apply job.
+
+A Prototype of a Scholarship Hunting website using HTML/CSS
 
 ## Acknowledgements
 
