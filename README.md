@@ -9,7 +9,7 @@ A Prototype of a Scholarship Hunting website using HTML/CSS
 ## Participate
 | SST | Họ Tên               | Email                 |
 |-----|----------------------|-----------------------|
-|1    | Mai Phúc Tâm         | |
+|1    | Mai Phúc Tâm         | 20521868@gm.uit.edu.vn|
 |2    | Châu Vĩnh Sinh       | 20520737@gm.uit.edu.vn|
 
 ## Modules
